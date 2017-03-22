@@ -103,7 +103,7 @@ yellow (#ECE833), white (#FFF) and grey (#808080) colours. As for the font, I on
 chosen is Lato and the fallbacks are "Helvetica Neue", Helvetica and Arial. The font size and weight are adjusted accordingly to suit various screen 
 sizes display. Paddings between text and paragraphs are also applied where necessary. Please refer below for the wireframe exercise accomplished.
 
-![figure 1 md](https://cloud.githubusercontent.com/assets/22834712/24224643/48a7c272-0fb0-11e7-8853-8d504de72612.jpg)
+https://cloud.githubusercontent.com/assets/22834712/24224643/48a7c272-0fb0-11e7-8853-8d504de72612.jpg
 
 **Figure 1**: Desktop and Mobile Wireframe Layouts Part 1
 
