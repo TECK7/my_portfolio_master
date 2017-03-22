@@ -16,3 +16,16 @@ Chrome, Firefox and Internet Explorer because targeted audience may have differe
 At the start, I had considered three different approaches building my webpage. The first approach is by using free and ready available 
 themes from popular websites / blogs. The second approach is to start from scratch by writing completely new HTML 5 and CSS 3 files. 
 The third approach is to use popular frameworks such as Bootstrap or Zurb Foundation.  All these approaches have its advantages and disadvantages.
+
+| Approaches    | Advantages    | Disadvantage  |
+| ------------- |:-------------:| -----:|
+| **Free Themes**  | * Desktop / mobile layout is setup properly                         | * Need to understand how the theme is built before adding or modifying features / effects              |
+|				   | * Browser compatibility coverage is broad	                         | * Limited flexibility                                                                                  |
+|				   | * Modify existing contents easily			                         |                                                                                                        |
+| **From Scratch** | * Great flexibility on generating contents / features / effects     | * More time and effort needed to layout responsiveness for both desktop and mobile screens             |
+|                  | * Maintain all contents easily                                      | * All areas of browser compatibility need to be tested                                                 |
+| **Framework**    | * Tested and reliable                                               | * The files generated for the project may be larger overall due to additional custom css and js files  |
+|                  | * Enable developer to focus more on producing contents              |                                                                                                        |
+|                  | * Use ready available JS plugin embedded within the framework to add in special features / effects |                                                                         |
+
+**Table 1** : Personal opinion on different approaches for building website
