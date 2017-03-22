@@ -95,6 +95,13 @@ Before starting any codes on HTML and CSS file, I had opted to perform some wire
 wireframe outcome instantly gives me an idea how my website would look like in both desktop and mobile screens. After this exercise, I created a 
 personal logo based on my first name. At this stage, I only had finalised the shape and pattern of my logo. 
 
+From here, I started to think how I should put my contents which is engaging and readable on mobile gadgets. So, I started to think of what features
+and effects I would need to include into my webpage. Please refer to following figure for the markups performed.
+
+![fig 4](https://cloud.githubusercontent.com/assets/22834712/24225536/1fb33586-0fb5-11e7-912c-8082a5855043.jpg)
+
+**Figure 1**: Webpage Features / Effects Markups
+
 #### Style Guide
 
 During the wireframe process, I had chosen to limit the number of colours used for the webpage because I only wanted to promote my contents but 
@@ -105,7 +112,7 @@ sizes display. Paddings between text and paragraphs are also applied where neces
 
 ![figure 1 md](https://cloud.githubusercontent.com/assets/22834712/24224818/69f3afb2-0fb1-11e7-85c5-dc64e533d713.jpg)
 
-**Figure 1**: Desktop and Mobile Wireframe Layouts Part 1
+**Figure 2**: Desktop and Mobile Wireframe Layouts Part 1
 
 #### Personal Logo and Navigation Bar
 
@@ -123,7 +130,7 @@ container right after the carousel container. The container contains an underlin
 
 ![figure 2 md](https://cloud.githubusercontent.com/assets/22834712/24225064/99191fa6-0fb2-11e7-94ab-435efe8db98a.jpg)
 
-**Figure 2**: Desktop and Mobile Wireframe Layouts Part 2
+**Figure 3**: Desktop and Mobile Wireframe Layouts Part 2
 
 #### Background Image Container and Experience Section and Portfolio Section
 The next container would be used to store images and a “read more” button. The “Experience” section is followed on with an underlined heading
@@ -139,7 +146,7 @@ and three different social icons. A footer section is included which has all the
 
 ![figure 3 md](https://cloud.githubusercontent.com/assets/22834712/24225172/341f6ffa-0fb3-11e7-8aff-df5d01e25391.jpg)
 
-**Figure 3**: Desktop and Mobile Wireframe Layouts Part 3
+**Figure 4**: Desktop and Mobile Wireframe Layouts Part 3
 
 [Webpage Design Documentation Contents](#webpage-design-documentation-contents)
 
