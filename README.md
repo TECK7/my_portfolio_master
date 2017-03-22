@@ -136,6 +136,11 @@ and a logo slider. The second container has an underlined main heading. This is 
 each image. The final section is the “Contact”. The container contains an underlined heading and two paragraph, a form input field, a send button 
 and three different social icons. A footer section is included which has all the main section links and a back to top arrow link.
 
+
+![figure 3 md](https://cloud.githubusercontent.com/assets/22834712/24225172/341f6ffa-0fb3-11e7-8aff-df5d01e25391.jpg)
+
+**Figure 3**: Desktop and Mobile Wireframe Layouts Part 3
+
 [Webpage Design Documentation Contents](#webpage-design-documentation-contents)
 
 ---
