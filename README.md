@@ -32,6 +32,15 @@
 	
 	4.6 [Portfolio Section](#portfolio-section)
 	
+	4.7 [Future Section](#future-section)
+	
+	4.8 [Contact Section](#contact-section)
+	
+	4.9 [Footer Section](#footer-section)
+	
+5. [HTML and CSS Files](#hTML-and-css-files)
+	
+	5.1 [HTML File](#hTML-file)
 
 ### Webpage Building Intent
 
@@ -178,32 +187,32 @@ bottom once user clicked on the button 2 and button 3. Again, this is the combin
 outside the HTML body tag “(!-- Portfolio Section --)” for details. The reason for this implementation is to allow more user interaction with my contents and help reduce the user’s 
 scrolling footprint.
 
-#### 4.7 Future Section
+#### Future Section
 The contents of this container (i.e. # future-project-sec) have two noticeable features. The first one is having a slider container that cycle through all the logos infinitely.
 This feature is implemented by using a minified JavaScript file and some scripts within the HTML body tag together with other CSS. The details can be found on 
 “(!-- For Skills Logo/Icon Slider --)”. The advantage of having this slider is that it could save some space within the container and giving these logo a tidy inline look.
 
-#### 4.8 The second feature can be seen on ‘Future Project’ section. The three different projects would bounce in from different angles as user scroll towards the 
+The second feature can be seen on ‘Future Project’ section. The three different projects would bounce in from different angles as user scroll towards the 
 viewport. As the user leaves the viewport, the contents would disappear. This is the combination of JavaScript and CSS written by Simon Codrington at Sitepoint. 
 Please refer to script inside the HTML body tag “(!-- Future Project Section --)” for details. It is a good feature inclusion when user is anticipating your future projects.
 
-#### 4.9 Contact Section
+#### Contact Section
 This section is straightforward. All responsiveness used Bootstrap CSS theme. Formspree.io is used for email and message input fields. This tool offers 1000 
 submissions per email each month and it is sufficient for static webpage. The social links are included using font-awesome icons with some special CSS pseudo 
 class :hover and :focus effect.
 
-#### 4.10 Footer Section
+#### Footer Section
 This section does not any special features apart from giving each specified section links and the back to top arrow a smooth scrolling effect. 
 This is achieved by including a script outside of the HTML body tag which can be found under “(!-- Script for Individual Section Scroll --)” for individual section 
 and “(!--Script for Scroll to Top from footer Section --)” for the back to top button.
 
-#### 4.11 Additional Feature
+#### Additional Feature
 User may also notice that a floating back to top button would appear on the screen when viewport is 200mm from the top of the screen. This script is 
 implemented on the outside of the HTML body tag under “(!-- Section of Scroll to Top Visible/Invisible Button --)”.
 
 ---
 
-### 5. HTML & CSS Files
+### 5. HTML and CSS Files
 
 ##### HTML File
 
