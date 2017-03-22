@@ -18,7 +18,7 @@ themes from popular websites / blogs. The second approach is to start from scrat
 The third approach is to use popular frameworks such as Bootstrap or Zurb Foundation.  All these approaches have its advantages and disadvantages.
 
 | Approaches    | Advantages    | Disadvantage  |
-| ------------- |:-------------:| -----:|
+| ------------- |-------------| -----|
 | **Free Themes**  | * Desktop / mobile layout is setup properly                         | * Need to understand how the theme is built before adding or modifying features / effects              |
 |				   | * Browser compatibility coverage is broad	                         | * Limited flexibility                                                                                  |
 |				   | * Modify existing contents easily			                         |                                                                                                        |
