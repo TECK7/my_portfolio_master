@@ -6,7 +6,7 @@
 /*For Bootstrap Glyphicons*/
 @font-face{
     font-family:'Glyphicons Halflings';
-    src:url(../bootstrap_fonts/glyphicons-halflings-regular.eot);		/*Link to bootstrap font file*/
+    src:url('../bootstrap_fonts/glyphicons-halflings-regular.eot');		/*Link to bootstrap font file*/
 }
 
 /*
