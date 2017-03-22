@@ -2,15 +2,15 @@
 
 ## Webpage Design Documentation Contents
 
-1 [1.Webpage Building Intent](#webpage-building-intent)
+1. [Webpage Building Intent](#webpage-building-intent)
  
-2 [2.Webpage Building Approach](#webpage-building-approach)
+2. [Webpage Building Approach](#webpage-building-approach)
 
-3 [3.Webpage Design Approach](#webpage-design-approach)
+3. [Webpage Design Approach](#webpage-design-approach)
 
-3.1 [3.1Style Guide](#style-guide)
+	3.1. [Style Guide](#style-guide)
 
-### 1. Webpage Building Intent
+### Webpage Building Intent
 
 The core intention of building this personal website is to promote myself to prospective employers. 
 The website would contain 5 main sections. These sections are “About Myself”, “Experience”, “Portfolio”, “Future” and “Contact”. 
@@ -21,7 +21,7 @@ Chrome, Firefox and Internet Explorer because targeted audience may have differe
 
 ---
 
-### 2. Webpage Building Approach
+### Webpage Building Approach
 
 At the start, I had considered three different approaches building my webpage. The first approach is by using free and ready available 
 themes from popular websites / blogs. The second approach is to start from scratch by writing completely new HTML 5 and CSS 3 files. 
@@ -46,13 +46,13 @@ contents that are responsive. Secondly, it would allow some valuable time to res
 
 ---
 
-### 3. Webpage Design Approach
+### Webpage Design Approach
 
 Before starting any codes on HTML and CSS file, I had opted to perform some wireframe exercises. This exercise had saved me extra time since the 
 wireframe outcome instantly gives me an idea how my website would look like in both desktop and mobile screens. After this exercise, I created a 
 personal logo based on my first name. At this stage, I only had finalised the shape and pattern of my logo. 
 
-#### 3.1 Style Guide
+#### Style Guide
 
 During the wireframe process, I had chosen to limit the number of colours used for the webpage because I only wanted to promote my contents but 
 not my front-end UX/UI skills. In fact, I had tested out a few sets of different colours combination. In the end, I had only used dark blue (#0B1625), 
