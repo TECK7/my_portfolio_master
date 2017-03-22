@@ -2,13 +2,13 @@
 
 ## Webpage Design Documentation Contents
 
-1 [Webpage Building Intent](#1. webpage-building-intent)
+1 [1. Webpage Building Intent](#webpage-building-intent)
  
-2 [Webpage Building Approach](#2. webpage-building-approach)
+2 [2. Webpage Building Approach](#webpage-building-approach)
 
-3 [Webpage Design Approach](#3. webpage-design-approach)
+3 [3. Webpage Design Approach](#webpage-design-approach)
 
-3.1 [Style Guide](#3.1 style-guide)
+3.1 [3.1 Style Guide](#style-guide)
 
 ### 1. Webpage Building Intent
 
