@@ -317,13 +317,14 @@ To wrap it up, here are a lists of features and effects;
 * carousel image caption slide-up instantaneously at every image cycle
 * carousel image caption fade away when user scroll downward to next container
 * parallax effect over the carousel images when user scroll down  
-* contents in "About Myself" sections slide-in into position from left when scroll to viewport
+* contents in "About Myself" sections slide-in into position from left when scroll to viewport and slide-out when scroll out of viewport
 * parallax effect on the background images stored after the "About Myself" section (Effect is static on IOS and Android)
-* contents in "Experience" section slide-up into position from bottom when scroll to viewport
-* contents in "Portfolio" section slide-in from left when scroll to viewport
+* contents in "Experience" section slide-up into position from bottom when scroll to viewport and slide-down when scroll out of viewport
+* contents in "Portfolio" section slide-in from left when scroll to viewport and slide-out when scroll out of viewport
 * different portfolio in "Portfolio" section can be view by toggling the labelled buttons
 * slider feature for skills/logos, the slider stops when hovered over
 * different projects under 'Future Project' heading bounce in when scroll to viewport
+* back-to-top button appearing at different sections of the webpage when scroll down, disappear when scroll back to carousel container
 * smooth scrolling for all section links and back-to-top links  
 
 
