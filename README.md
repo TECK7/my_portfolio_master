@@ -1,8 +1,6 @@
 # My Perosnal Webpage
 
-
 ## Webpage Design Documentation
-
 
 ### 1. Webpage Building Intent
 
@@ -14,3 +12,7 @@ designed around mobile first philosophy. Moreover, it is important to create a w
 Chrome, Firefox and Internet Explorer because targeted audience may have different browser installed on their mobile gadgets. 
 
 ### 2. Webpage Building Approach
+
+At the start, I had considered three different approaches building my webpage. The first approach is by using free and ready available 
+themes from popular websites / blogs. The second approach is to start from scratch by writing completely new HTML 5 and CSS 3 files. 
+The third approach is to use popular frameworks such as Bootstrap or Zurb Foundation.  All these approaches have its advantages and disadvantages.
