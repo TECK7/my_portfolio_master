@@ -9,6 +9,29 @@
 3. [Webpage Design Approach](#webpage-design-approach)
 
 	3.1. [Style Guide](#style-guide)
+	
+	3.2  [Personal Logo and Navigation Bar](#personal-logo-and-navigation-bar)
+	
+	3.3  [Carousel Container and About Myself Section](#carousel-container-and-about-myself-section)
+	
+	3.4	 [Background Image Container & Experience Section & Portfolio Section](#background-image-container-&-experience-section-&-portfolio-section)
+	
+	3.5  [Future Section & Contact Section & Footer Section](#future-section-&-contact-section-&-footer-section)
+	
+4. [Bootstrap 3.3.7 Responsive Framework & Other Plugins](#bootstrap-3.3.7-responsive-framework-&-other-plugins)
+
+	4.1 [Navigation Bar](#navigation-bar)
+	
+	4.2 [Carousel Container](#carousel-container)
+	
+	4.3 [About Myself Section](#about-myself-section)
+	
+	4.4 [Background Image Container](#background-image-container)
+	
+	4.5 [Experience Section](#experience-section)
+	
+	4.6 [Portfolio Section](#portfolio-section)
+	
 
 ### Webpage Building Intent
 
@@ -60,7 +83,7 @@ yellow (#ECE833), white (#FFF) and grey (#808080) colours. As for the font, I on
 chosen is Lato and the fallbacks are "Helvetica Neue", Helvetica and Arial. The font size and weight are adjusted accordingly to suit various screen 
 sizes display. Paddings between text and paragraphs are also applied where necessary. Please refer below for the wireframe exercise accomplished.
 
-#### 3.2 Personal Logo and Navigation Bar
+#### Personal Logo and Navigation Bar
 
 The personal logo is located on the left hand side of the fixed navigation bar. This logo position is similar to where a business logo or a brand 
 would normally be located.  The links for each main section of the webpage would be floated towards the right hand side of the navigation bar. All
@@ -68,19 +91,19 @@ the links would be clearly shown at breakpoint width more than or equal to 768px
 at breakpoints width less than 768px.  
 
  
-#### 3.3 Carousel Container and About Myself Section
+#### Carousel Container and About Myself Section
 
 The subsequent container is a Bootstrap carousel container that contains three different images and its respective image caption. This container
 is not declared as a main section but a brief opening section at the start once the page is loaded. “About Myself” section would be the following
 container right after the carousel container. The container contains an underlined heading and three paragraphs. 
 
 
-#### 3.4 Background Image Container & Experience Section & Portfolio Section
+#### Background Image Container & Experience Section & Portfolio Section
 The next container would be used to store images and a “read more” button. The “Experience” section is followed on with an underlined heading
 and three paragraphs as well. Subsequent container is for containing “Portfolio” section. This section has a total of three separate individual 
 heading, three toggle buttons, three separate individual sub-heading, three separate individual paragraphs and three separate individual images.
 
-#### 3.5 Future Section & Contact Section & Footer Section
+#### Future Section & Contact Section & Footer Section
 The second last section is the “Future”. It has a total of two individual blocks of containers. The first container has a heading, four paragraphs 
 and a logo slider. The second container has an underlined main heading. This is followed by three separate images and thumbnails at the bottom of 
 each image. The final section is the “Contact”. The container contains an underlined heading and two paragraph, a form input field, a send button 
@@ -88,14 +111,14 @@ and three different social icons. A footer section is included which has all the
 
 ---
 
-### 4. Bootstrap 3.3.7 Responsive Framework & Other Plugins
+### Bootstrap 3.3.7 Responsive Framework & Other Plugins
 As mentioned earlier, Bootstrap 3.3.7 framework is used to build this webpage. Hence, most of the container responsiveness is handled by the 
 in-built CSS classes for various screen sizes (i.e. col-lg-x / col-md-x / col-sm-x / col-xs-x) where x is ranging from 1 to 12. These values are
 specified in different container tags to suit both desktop and mobile wireframes design layout. However, there are few elements that do not rely
 on Bootstrap responsive theme. The main reason is due to the addition of non bootstrap feature/effects implemented into the webpage. All the 
 features/effects added in are to enhance user browsing and navigating experience.
 
-#### 4.1 Navigation Bar
+#### Navigation Bar
 The navigation section is fixed at the top of the page using class navbar-fixed-top. This also means that the navigation bar will always appear at 
 the top of the screen wherever the user scrolls downward. In order to save some screen estate, I had included a headroom.js plugin combined with 
 some jquery script to hide the navigation bar as the user scroll downward to other contents. The navigation bar will be shown as the user scroll upward. 
@@ -105,7 +128,7 @@ The burger toggle button will also slide in a menu bar from the left when is cli
 implemented using Bootstrap-Offcanvas plugin contributed by Phil Hughes on Github. The reason for this implementation is to adopt current mobile menu design trend.
 
 
-#### 4.2 Carousel Container
+#### Carousel Container
 In the carousel container section, Bootstrap carousel.js is used. In fact, left (i.e. previous) and right (i.e. next) controls has been left out. 
 This action was taken because of two main reasons. The first is not to allow these controls to further impede the view of the images in mobile layout. 
 Secondly, the carousel indicators would be sufficient for the user to cycle through the carousel. TouchSwipe j.query plugin hosted by Matt Bryson on Github 
@@ -124,7 +147,7 @@ the HTML body tag “//Fade Carousel Caption when Schroll down” for details.
 When the screen resizes, the carousel images also resize. This responsive feature on the image is needed since Bootstrap carousel default is override by other
 CSS properties.  Please refer to script outside the HTML body tag “//For Responsive Carousel Images when screen resizes” for details.
 
-#### 4.3 About Myself Section
+#### About Myself Section
 In “About Myself” section, the container (i.e. #about-wrapper) have higher index value than the carousel container (i.e. #carousel-img). 
 This setup is to enable parallax effect over the carousel images. The real purpose of including a parallax effect is to create an illusion of depth 
 in a 2D scene and adding to the immersion. This effect would not work if JavaScript is not added. Please refer to script inside the HTML body tag 
@@ -133,14 +156,14 @@ As the user leaves the viewport, the contents would disappear. This is the combi
 The benefit of this is to provide an interesting and interactive experience to engage the user. Please refer to script inside the HTML body tag “(!--For About Myself Contents --)”
 for details.
 
-#### 4.4 Background Image Container
+#### Background Image Container
 In this container (#"experience-sec0), parallax effect over the background images has been implemented. The script details can be found script inside the HTML
 body tag under “(!-- For Parallax --)”. This effect is added not only create an illusion similar to “About Myself” section but also encourage user to view more 
 of the image when scrolling upward and downward. Unfortunately, this plugin does not work on Android and IOS devices. The image would static without any degradation. 
 A hover effect has been introduced to the “read more” button although hover does not really work well on mobile gadgets. However, the user would still be able to appreciate 
 the effect because the CSS pseudo-class :focus is applied with same attributes. This means that if user clicked on the button the effect could still be seen. 
 
-#### 4.5 Experience Section
+#### Experience Section
 Contents within this container (i.e. #experience-sec) would slide up from the bottom as user scroll towards the viewport. As the user leaves the viewport, the contents 
 would disappear. This is the combination of JavaScript and CSS written by Simon Codrington at Sitepoint. Please refer to script inside the HTML body tag “(!-- For Experience Contents --)” 
 for details.
