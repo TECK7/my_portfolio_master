@@ -11,6 +11,8 @@ It is critical to allow interested audience to view my personal webpage on their
 designed around mobile first philosophy. Moreover, it is important to create a webpage that is functional on browsers such as Safari, 
 Chrome, Firefox and Internet Explorer because targeted audience may have different browser installed on their mobile gadgets. 
 
+---
+
 ### 2. Webpage Building Approach
 
 At the start, I had considered three different approaches building my webpage. The first approach is by using free and ready available 
@@ -29,3 +31,14 @@ The third approach is to use popular frameworks such as Bootstrap or Zurb Founda
 |                  | - Use ready available JS plugin embedded within the framework to add in special features / effects |                                                                         |
 
 **Table 1** : Personal opinion on different approaches for building website
+
+Eventually, I had decided to use Bootstrap 3.3.7 framework to build my personal webpage. The short duration permitted and the mobile first 
+requirements for this project are the reasons that influence my final decision. By using this framework, it allows me to concentrate on generating
+contents that are responsive. Secondly, it would allow some valuable time to research and implement better mobile user experience features. 
+
+---
+
+### 3.	Webpage Design Approach
+Before starting any codes on HTML and CSS file, I had opted to perform some wireframe exercises. This exercise had saved me extra time since the 
+wireframe outcome instantly gives me an idea how my website would look like in both desktop and mobile screens. After this exercise, I created a 
+personal logo based on my first name. 
