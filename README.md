@@ -38,9 +38,9 @@
 	
 	4.9 [Footer Section](#footer-section)
 	
-5. [HTML and CSS Files](#hTML-and-css-files)
+5. [HTML and CSS Files](#html-and-css-files)
 	
-	5.1 [HTML File](#hTML-file)
+	5.1 [HTML File](#html-file)
 
 ### Webpage Building Intent
 
