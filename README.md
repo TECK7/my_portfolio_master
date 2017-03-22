@@ -20,12 +20,12 @@ The third approach is to use popular frameworks such as Bootstrap or Zurb Founda
 | Approaches | Advantages | Disadvantage |
 | --- |---| ---|
 | **Free Themes**  | - Desktop / mobile layout is setup properly                         | - Need to understand how the theme is built before adding or modifying features / effects              |
-|				   | - Browser compatibility coverage is broad	                         | - Limited flexibility                                                                                  |
-|				   | - Modify existing contents easily			                         |                                                                                                        |
+				   | - Browser compatibility coverage is broad	                         | - Limited flexibility                                                                                  |
+				   | - Modify existing contents easily			                         |                                                                                                        |
 | **From Scratch** | - Great flexibility on generating contents / features / effects     | - More time and effort needed to layout responsiveness for both desktop and mobile screens             |
-|                  | - Maintain all contents easily                                      | - All areas of browser compatibility need to be tested                                                 |
+                   | - Maintain all contents easily                                      | - All areas of browser compatibility need to be tested                                                 |
 | **Framework**    | - Tested and reliable                                               | - The files generated for the project may be larger overall due to additional custom css and js files  |
-|                  | - Enable developer to focus more on producing contents              |                                                                                                        |
-|                  | - Use ready available JS plugin embedded within the framework to add in special features / effects |                                                                         |
+                   | - Enable developer to focus more on producing contents              |                                                                                                        |
+                   | - Use ready available JS plugin embedded within the framework to add in special features / effects |                                                                         |
 
 **Table 1** : Personal opinion on different approaches for building website
