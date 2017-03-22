@@ -84,6 +84,9 @@ Eventually, I had decided to use Bootstrap 3.3.7 framework to build my personal 
 requirements for this project are the reasons that influence my final decision. By using this framework, it allows me to concentrate on generating
 contents that are responsive. Secondly, it would allow some valuable time to research and implement better mobile user experience features. 
 
+
+[Webpage Design Documentation Contents](#webpage-design-documentation-contents)
+
 ---
 
 ### Webpage Design Approach
@@ -125,6 +128,8 @@ The second last section is the “Future”. It has a total of two individual bl
 and a logo slider. The second container has an underlined main heading. This is followed by three separate images and thumbnails at the bottom of 
 each image. The final section is the “Contact”. The container contains an underlined heading and two paragraph, a form input field, a send button 
 and three different social icons. A footer section is included which has all the main section links and a back to top arrow link.
+
+[Webpage Design Documentation Contents](#webpage-design-documentation-contents)
 
 ---
 
@@ -218,6 +223,8 @@ and “(!--Script for Scroll to Top from footer Section --)” for the back to t
 User may also notice that a floating back to top button would appear on the screen when viewport is 200mm from the top of the screen. This script is 
 implemented on the outside of the HTML body tag under “(!-- Section of Scroll to Top Visible/Invisible Button --)”.
 
+[Webpage Design Documentation Contents](#webpage-design-documentation-contents)
+
 ---
 
 ### HTML and CSS Files
@@ -251,6 +258,8 @@ which is stored in css folder. This file is linked with the HTML file under <!--
 navigation bar CSS is stored in bootstrap_offcanvas.css file. This would ensure all navigation related CSS is only managed under a single file. Besides, there are 
 several other CSS files are linked to the HTML file due to various plugin implementations into the webpage. All of these CSS files are embedded within the '(head) tag.  
 
+[Webpage Design Documentation Contents](#webpage-design-documentation-contents)
+
 ---
 
 ### Folder Structure
@@ -265,6 +274,8 @@ The robot.txt is created at the root directory. The robot is not allowed to acce
 In general, large webpage with many pages would have a sitemap as a standard. Nevertheless, a sitemap xml file is created to allow the search engines to index a webpage much quicker. 
 Once the final project is uploaded to the repository, this webpage link is then submitted to https://www.xml-sitemaps.com (Last visited: 21/03/2017) to generate the sitemap.xml for my personal webpage. 
 This xml file is stored at the root of the webpage. In other words, it is locate at the same directory level as index.html and robot.txt.
+
+[Webpage Design Documentation Contents](#webpage-design-documentation-contents)
 
 ---
 
@@ -290,12 +301,30 @@ The other challenge is to find a way to make all contents as compact as possible
 Initially, these requirements are met by using guides posted on http://www.web2feel.com/tutorial-for-animated-scroll-loading-effects-with-animate-css-and-jquery (Last visited: 15/03/2017). However, this plugin does 
 not work on Internet Explorer when tested. Again, through using some professional guidance from front end developers that publishes their web building tips and tricks, these requirements are met. 
 
+[Webpage Design Documentation Contents](#webpage-design-documentation-contents)
+
 ---
 
 ### Summary
 In summary, wireframe exercise at the start of the webpage building process had helped me to focus what I really want to achieve for my webpage. The style guide, colour scheme, section layouts from 
 the wireframe had set me up to code HTML and CSS in a more oraganised way. However, without Javascript skills, it is difficult to implement features and effects into your webpage requirements. 
 Thankfully, there are plenty of tutorials, guidance and plugins available to assist my implementation. However, not all sources from the internet are reliable until there are tested out in my project.
+
+To wrap it up, here are a lists of features and effects;
+
+* navigation bar hidden when scroll down and re-appear when scroll up
+* first carousel image zoom in once loaded
+* carousel image caption slide-up instantaneously at every image cycle
+* carousel image caption fade away when user scroll downward to next container
+* parallax effect over the carousel images when user scroll down  
+* contents in "About Myself" sections slide-in into position from left when scroll to viewport
+* parallax effect on the background images stored after the "About Myself" section (Effect is static on IOS and Android)
+* contents in "Experience" section slide-up into position from bottom when scroll to viewport
+* contents in "Portfolio" section slide-in from left when scroll to viewport
+* different portfolio in "Portfolio" section can be view by toggling the labelled buttons
+* slider feature for skills/logos, the slider stops when hovered over
+* different projects under 'Future Project' heading bounce in when scroll to viewport
+* smooth scrolling for all section links and back-to-top links  
 
 
 ### Live Webpage via Github
