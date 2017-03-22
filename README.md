@@ -14,11 +14,11 @@
 	
 	3.3  [Carousel Container and About Myself Section](#carousel-container-and-about-myself-section)
 	
-	3.4	 [Background Image Container & Experience Section & Portfolio Section](#background-image-container-&-experience-section-&-portfolio-section)
+	3.4	 [Background Image Container & Experience Section & Portfolio Section](#background-image-container-experience-section-portfolio-section)
 	
-	3.5  [Future Section & Contact Section & Footer Section](#future-section-&-contact-section-&-footer-section)
+	3.5  [Future Section & Contact Section & Footer Section](#future-section-contact-section-footer-section)
 	
-4. [Bootstrap 3.3.7 Responsive Framework & Other Plugins](#bootstrap-3.3.7-responsive-framework-&-other-plugins)
+4. [Bootstrap 3.3.7 Responsive Framework & Other Plugins](#bootstrap-3.3.7-responsive-framework-other-plugins)
 
 	4.1 [Navigation Bar](#navigation-bar)
 	
@@ -168,7 +168,7 @@ Contents within this container (i.e. #experience-sec) would slide up from the bo
 would disappear. This is the combination of JavaScript and CSS written by Simon Codrington at Sitepoint. Please refer to script inside the HTML body tag “(!-- For Experience Contents --)” 
 for details.
 
-#### 4.6 Portfolio Section
+#### Portfolio Section
 In this container (i.e. # portfolio-sec) would slide in from the left as user scroll towards the viewport. As the user leaves the viewport, the contents would disappear. 
 This is the combination of JavaScript and CSS written by Simon Codrington at Sitepoint. Please refer to script inside the HTML body tag “(!-- For Portfolio Contents --)” for details.
 
