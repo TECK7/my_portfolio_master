@@ -42,7 +42,7 @@ contents that are responsive. Secondly, it would allow some valuable time to res
 
 Before starting any codes on HTML and CSS file, I had opted to perform some wireframe exercises. This exercise had saved me extra time since the 
 wireframe outcome instantly gives me an idea how my website would look like in both desktop and mobile screens. After this exercise, I created a 
-personal logo based on my first name. 
+personal logo based on my first name. At this stage, I only had finalised the shape and pattern of my logo. 
 
 #### 3.1 Style Guide
 
@@ -215,9 +215,41 @@ appearing on the webpage. The icons folder is used to stored favicons generated 
 The robot.txt is created at the root directory. The robot is not allowed to access the js folder, images folder, css/icons folder, css/bootstrap_offcanvas.css file and css/custom.css file.
 
 In general, large webpage with many pages would have a sitemap as a standard. Nevertheless, a sitemap xml file is created to allow the search engines to index a webpage much quicker. 
-Once the final project is uploaded to the repository and obtained the live webpage https://teck7.github.io/teck.github.io, this link is submitted to https://www.xml-sitemaps.com to 
-generate the sitemap.xml for my personal webpage. This xml file is stored at the root of the webpage. In other words, it is locate at the same directory level as index.html and robot.txt.
+Once the final project is uploaded to the repository, this webpage link is then submitted to https://www.xml-sitemaps.com (Last visited: 21/03/2017) to generate the sitemap.xml for my personal webpage. 
+This xml file is stored at the root of the webpage. In other words, it is locate at the same directory level as index.html and robot.txt.
 
 ---
 
+### 7. Challenges & Difficulties 
+There are a several challenges and difficulties during the process of the building the webpage. These obstacles arise during the implementation of various features / effects into the 
+webpage from third party plugins. Enormous amount of effort and time needed to ensure third party plugins works harmoniously with Bootstrap framework. 
 
+The first real challenge would be enabling the slide in menu. Initially, marcandrews bootstrap-off-canvas-nav plugin is used throughout the webpage building process. This plugin 
+works perfectly on Firefox and Chrome browsers. Unfortunately, the slide in menu does not show the sections links in Internet Explorer. The problem could be with the CSS. I had tried 
+to do some changes but it couldn’t work. At this point, I made a decision to search for another bootstrap-off-canvas-nav plugin. After spending some time, it finally works across all 
+browsers. This demonstrated that not Github plugins are reliable until it’s been tested.
+
+The second difficulty is the research needed to get a solution for implementing a parallax effect on Bootstrap carousel container. Plenty of time is spent to get around the Bootstrap 
+framework code base to achieve the parallax effect. Fortunately, this implementation had passed all browser testing. The other challenge is trying to apply some animation on the carousel 
+image and the carousel caption. In the end, these features are enabled through using some professional guidance from front end developers that publishes their web building tips and tricks.         
+
+The third difficulty is the parallax effect implementation on to the background images that lies in '(div id=”experience-sec0”) under '(!-- BG Image Container Using Parallax Js--)'. 
+Due to limited time permitted for this project, this plugin is chosen although it does not work on IOS and Android devices. I had chosen to proceed by using this plugin for two reasons. 
+Firstly, this plugin is reliable for desktop display across all browsers. Secondly, mobile users may not fully appreciate the parallax effect since the screen is small and as long as the 
+images are not subjected to any degradation. 
+
+The other challenge is to find a way to make all contents as compact as possible and as interactive as possible. In order to satisfy both requirements, JavaScript and CSS combination codes are needed. 
+Initially, these requirements are met by using guides posted on http://www.web2feel.com/tutorial-for-animated-scroll-loading-effects-with-animate-css-and-jquery (Last visited: 15/03/2017). However, this plugin does 
+not work on Internet Explorer when tested. Again, through using some professional guidance from front end developers that publishes their web building tips and tricks, these requirements are met. 
+
+---
+
+### 8. Summary
+In summary, wireframe exercise at the start of the webpage building process had helped me to focus what I really want to achieve for my webpage. The style guide, colour scheme, section layouts from 
+the wireframe had set me up to code HTML and CSS in a more oraganised way. However, without Javascript skills, it is difficult to implement features and effects into your webpage requirements. 
+Thankfully, there are plenty of tutorials, guidance and plugins available to assist my implementation. However, not all sources from the internet are reliable until there are tested out in my project.
+
+
+### Live Webpage via Github
+
+**https://teck7.github.io/teck.github.io**
