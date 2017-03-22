@@ -14,11 +14,11 @@
 	
 	3.3  [Carousel Container and About Myself Section](#carousel-container-and-about-myself-section)
 	
-	3.4	 [Background Image Container & Experience Section & Portfolio Section](#background-image-container-experience-section-portfolio-section)
+	3.4	 [Background Image Container and Experience Section and Portfolio Section](#background-image-container-and-experience-section-and-portfolio-section)
 	
-	3.5  [Future Section & Contact Section & Footer Section](#future-section-contact-section-footer-section)
+	3.5  [Future Section and Contact Section and Footer Section](#future-section-and-contact-section-and-footer-section)
 	
-4. [Bootstrap 3.3.7 Responsive Framework & Other Plugins](#bootstrap-3.3.7-responsive-framework-other-plugins)
+4. [Bootstrap 3.3.7 Responsive Framework and Other Plugins](#bootstrap-3.3.7-responsive-framework-and-other-plugins)
 
 	4.1 [Navigation Bar](#navigation-bar)
 	
@@ -98,12 +98,12 @@ is not declared as a main section but a brief opening section at the start once 
 container right after the carousel container. The container contains an underlined heading and three paragraphs. 
 
 
-#### Background Image Container & Experience Section & Portfolio Section
+#### Background Image Container and Experience Section and Portfolio Section
 The next container would be used to store images and a “read more” button. The “Experience” section is followed on with an underlined heading
 and three paragraphs as well. Subsequent container is for containing “Portfolio” section. This section has a total of three separate individual 
 heading, three toggle buttons, three separate individual sub-heading, three separate individual paragraphs and three separate individual images.
 
-#### Future Section & Contact Section & Footer Section
+#### Future Section and Contact Section and Footer Section
 The second last section is the “Future”. It has a total of two individual blocks of containers. The first container has a heading, four paragraphs 
 and a logo slider. The second container has an underlined main heading. This is followed by three separate images and thumbnails at the bottom of 
 each image. The final section is the “Contact”. The container contains an underlined heading and two paragraph, a form input field, a send button 
@@ -111,7 +111,7 @@ and three different social icons. A footer section is included which has all the
 
 ---
 
-### Bootstrap 3.3.7 Responsive Framework & Other Plugins
+### Bootstrap 3.3.7 Responsive Framework and Other Plugins
 As mentioned earlier, Bootstrap 3.3.7 framework is used to build this webpage. Hence, most of the container responsiveness is handled by the 
 in-built CSS classes for various screen sizes (i.e. col-lg-x / col-md-x / col-sm-x / col-xs-x) where x is ranging from 1 to 12. These values are
 specified in different container tags to suit both desktop and mobile wireframes design layout. However, there are few elements that do not rely
