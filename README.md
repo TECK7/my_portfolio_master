@@ -183,4 +183,14 @@ very beginning so that web browsers can read the HTML file. Within the <head> ta
 * <meta http-equiv="X-UA-Compatible" content="IE=edge">
 * <meta name="viewport" content="width=device-width, initial-scale=1">
 
+Other meta tags such as <meta name="description" content=" "> and <meta name="author" content=" "> are supplementary. These tags if included, allow web browser 
+search engines to capture all information and display below the webpage link of the HTML file. Social media meta tags are included as well. These are written as followed;
+
+* <meta property="og:title" content=" ">
+* <meta property="og:description" content=" ">
+* <meta property="og:type" content=" ">
+* <meta property="og:image" content=' ‘>
+
+The rest of the HTML file is followed by a <body> tag that keeps all the HTML contents. 
+
 
