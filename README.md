@@ -350,3 +350,8 @@ To wrap it up, here are a lists of features and effects;
 ### Live Webpage via Github
 
 **https://teck7.github.io/teck.github.io**
+
+### What's Up Next?
+
+* Build a landing page that would allow webpage visitor to choose Language version of my web contents
+* Make parallax effect on the background image work on IOS and Android system 
