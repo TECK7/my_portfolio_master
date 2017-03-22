@@ -1,6 +1,9 @@
 # My Perosnal Webpage
 
-## Webpage Design Documentation
+## Webpage Design Documentation Contents
+1. [Webpage Building Intent](#webpage-building-intent) 
+2. [Webpage Building Approach](#webpage-building-approach)
+3. [Webpage Design Approach](#webpage-design-approach)
 
 ### 1. Webpage Building Intent
 
