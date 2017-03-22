@@ -212,7 +212,7 @@ implemented on the outside of the HTML body tag under “(!-- Section of Scroll 
 
 ---
 
-### 5. HTML and CSS Files
+### HTML and CSS Files
 
 ##### HTML File
 
