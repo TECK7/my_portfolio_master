@@ -3,12 +3,6 @@
   width: device-width;
 }
 
-/*For Bootstrap Glyphicons*/
-@font-face{
-    font-family:'Glyphicons Halflings';
-    src:url('bootstrap_fonts/glyphicons-halflings-regular.eot');		/*Link to bootstrap font file*/
-}
-
 /*
   ===============================================
   Carousel Section Settings (Home Page)
@@ -1794,13 +1788,13 @@ button.submit-message:focus {
 	font-size: 15px; 
 }
 
-.back-to-top {
+.top-btn {
 	color: black;
-	font-size: 15px;
+	font-size: 20px;
 }
 
-.back-to-top:hover,
-.back-to-top:focus {
+.top-btn:hover,
+.top-btn:focus {
 	text-decoration: none;
 	color: #EDE832;
 }
@@ -1820,7 +1814,7 @@ button.submit-message:focus {
 	font-size: 12px; 
 	}
 
-	.back-to-top {
+	.top-btn {
 	font-size: 12px;
 	}
 }
@@ -1835,7 +1829,7 @@ button.submit-message:focus {
 	font-size: 10px; 
 	}
 
-	.back-to-top {
+	.top-btn {
 	font-size: 10px;
 	}
 }
@@ -1850,7 +1844,7 @@ button.submit-message:focus {
 	font-size: 8px; 
 	}
 
-	.back-to-top {
+	.top-btn {
 	font-size: 8px;
 	}
 }
