@@ -1,0 +1,1903 @@
+/*For MS device width*/
+@-ms-viewport{
+  width: device-width;
+}
+
+/*For Bootstrap Glyphicons*/
+@font-face{
+    font-family:'Glyphicons Halflings';
+    src:url(../css/bootstrap_fonts/glyphicons-halflings-regular.eot);		/*Link to bootstrap font file*/
+}
+
+/*
+  ===============================================
+  Carousel Section Settings (Home Page)
+  ===============================================
+*/
+/*To enable first image to zoomIn upon loading*/
+.sec2-carousel-container {
+	border: 1px solid transparent;
+	padding: 0 0;
+}	
+
+/* carousel fullscreen - vertically centered caption*/
+.carousel-caption {
+    top: 50%;  
+    bottom: auto;
+    -webkit-transform: translate(0, -50%);  				/*Always position text at half of the image size*/
+    -ms-transform: translate(0, -50%); 
+	-moz-transform: translate(0, -50%);
+	-o-transform: translate(0, -50%); 	
+    transform: translate(0, -50%);
+}
+
+.slide1-h {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: white; 
+	font-size: 90px;
+	font-weight: 400;
+}
+
+.slide1-p {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: white; 
+	font-size: 30px;
+	font-weight: 600;
+	letter-spacing: 0.1em;
+}
+
+.slide2-h {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: white; 
+	font-size: 55px;
+	font-weight: 400;
+}
+
+.slide2-p {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: white; 
+	font-size: 25px;
+	font-weight: 600;
+	letter-spacing: 0.1em;
+}
+
+.slide3-h {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: white; 
+	font-size: 55px;
+	font-weight: 400;
+}
+
+.slide3-p {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: white; 
+	font-size: 25px;
+	font-weight: 600;
+	letter-spacing: 0.1em;
+}
+
+/* Animation delays */
+.slide1-text,
+.slide2-text,
+.slide3-text {
+    animation-delay: 0.6s;
+}
+
+.carousel-indicators li {
+	display: inline-block;
+    width: 15px;
+    height: 15px;
+	margin-bottom: -15px;
+	margin-left: 5px;
+	margin-right: 5px;
+    text-indent: 0;
+    cursor: pointer;
+    border: 1px solid white;								
+    -moz-border-radius: 50%; 
+	-webkit-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+    background-color: white;								 	
+}
+
+.carousel-indicators li:hover {
+    background-color: #EDE832;								 	
+}
+
+.carousel-indicators .active {
+    width: 15px;
+    height: 15px;
+    margin-bottom: -15px;
+	margin-left: 5px;
+	margin-right: 5px;
+	border: 1px solid #EDE832;								
+    background-color: #EDE832;								
+	-moz-box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+	-webkit-box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5); 
+	-ms-box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5); 	
+	-o-box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);
+	box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);  
+}
+
+/*Linked to HTML Js*/
+/*-- Enable Carousel Responsive Image via (For Responsive Carousel Images when screen resizes) --*/
+.full-screen {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	max-height: 600px;
+	padding: 0 0;
+	margin-top: 0px;
+}
+
+/*
+  ===================================================
+  Media Query Settings for Carousel Section
+  ===================================================
+*/
+@media (max-width: 767px) {
+	.slide1-h {
+	color: white; 
+	font-size: 60px;
+	font-weight: 400;
+	}
+
+	.slide1-p {
+	color: white; 
+	font-size: 35px;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+	}
+
+	.slide2-h {
+	color: white; 
+	font-size: 40px;
+	font-weight: 400;
+	}
+
+	.slide2-p {
+	color: white; 
+	font-size: 23px;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+	}
+
+	.slide3-h {
+	color: white; 
+	font-size: 40px;
+	font-weight: 400;
+	}
+
+	.slide3-p {
+	color: white; 
+	font-size: 23px;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+	}
+	
+	.carousel-indicators li {
+	margin-bottom: 15px;						 	
+	}
+	
+	.carousel-indicators .active {
+    margin-bottom: 15px;
+	}
+}
+
+@media (max-width: 500px) {
+	.slide1-h {
+	color: white; 
+	font-size: 40px;
+	font-weight: 400;
+	}
+
+	.slide1-p {
+	color: white; 
+	font-size: 28px;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+	}
+
+	.slide2-h {
+	color: white; 
+	font-size: 30px;
+	font-weight: 400;
+	}
+
+	.slide2-p {
+	color: white; 
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+	}
+
+	.slide3-h {
+	color: white; 
+	font-size: 30px;
+	font-weight: 400;
+	}
+
+	.slide3-p {
+	color: white; 
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+	}
+}
+
+/*
+  ===============================================
+  About Myself Section Settings 
+  ===============================================
+*/
+.about-myself {
+	background-color: #091525;
+}
+
+.about-me-h1 {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 700;
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 0px;
+}
+
+li.about-divider {
+	border-bottom: 2px solid #EDE832;
+	list-style-type: none;
+}
+
+.about-me-p1,
+.about-me-p2,
+.about-me-p3 {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 500;
+	color: white;
+}
+
+.about-me-p1 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.about-me-p2 {
+	padding-bottom: 20px;
+}
+
+.about-me-p3 {
+	padding-bottom: 40px;
+}
+
+.animation-about-element {
+	opacity: 0;											/*Set element opaque zero initially*/
+	position: relative;
+}
+
+/*Linked to HTML Js*/
+/*animation element sliding left*/
+.animation-about-element.slide-left {
+	opacity: 0;
+	-moz-transition: all 1000ms linear;					/*Set time and motion method*/
+	-webkit-transition: all 1000ms linear;
+	-o-transition: all 1000ms linear;
+	transition: all 1000ms linear;
+	-moz-transform: translate3d(-100px, 0px, 0px);		/*negative x-distance*/
+	-webkit-transform: translate3d(-100px, 0px, 0px);
+	-o-transform: translate(-100px, 0px);
+	-ms-transform: translate(-100px, 0px);
+	transform: translate3d(-100px, 0px, 0px);
+}
+
+.animation-about-element.slide-left.in-about-view {
+	opacity: 1;
+	-moz-transform: translate3d(0px, 0px, 0px);			/*Set to original position after appearing*/
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	-o-transform: translate(0px, 0px);
+	-ms-transform: translate(0px, 0px);
+	transform: translate3d(0px, 0px, 0px);
+}
+/*end of animation element sliding left*/
+
+/*
+  ===================================================
+  Media Query Settings for About Myself Section
+  ===================================================
+*/
+@media (max-width: 1920px) {
+	.about-me-h1 {
+	font-size: 45px;
+	}
+	
+	.about-me-p1,
+	.about-me-p2,
+	.about-me-p3 {
+	font-size: 35px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.about-me-h1 {
+	font-size: 40px;
+	}
+	
+	.about-me-p1,
+	.about-me-p2,
+	.about-me-p3 {
+	font-size: 30px;
+	}
+}
+
+@media (max-width: 640px) {
+	.about-me-h1 {
+	font-size: 35px;
+	}
+	
+	.about-me-p1,
+	.about-me-p2,
+	.about-me-p3 {
+	font-size: 25px;
+	}
+}
+
+@media (max-width: 400px) {
+  .about-me-h1 {
+	font-size: 30px;
+	}
+	
+	.about-me-p1,
+	.about-me-p2,
+	.about-me-p3 {
+	font-size: 20px;
+	}
+}
+
+@media (max-width: 320px) {
+	.about-me-h1 {
+	font-size: 25px;
+	}
+	
+	.about-me-p1,
+	.about-me-p2,
+	.about-me-p3 {
+	font-size: 15px;
+	}
+}
+
+
+/*
+  ==================================================
+  Parallax Background Aft Carousel Section Settings 
+  ==================================================
+*/
+#carousel-img {
+	position: relative;
+	z-index: 1;
+}
+
+#about-wrapper {
+	height: 200px;					/*give a height to the background of about myself section*/
+	width: 100%;
+	background-color: #091525;
+	position: relative;
+	margin-top: -10px;
+	z-index: 2;						/*Give higher index to overlay the carousel images*/
+}	
+
+/*
+  ==================================================================
+  Media Query Settings for Parallax Background Aft Carousel Section 
+  ==================================================================
+*/
+@media (max-width: 320px) {
+	#about-wrapper {
+	height: 80px;					/*give a height to the background of about myself section*/
+	}
+}
+
+/*
+  ====================================================
+  Parallax Background Section Settings (Experiences)
+  ====================================================
+*/
+/*Container before Background Image*/
+.experience-wrapper {
+    background: #091525;
+	min-height: 500px;
+}
+
+/*For Storing Background Image*/
+.parallax-window {
+	margin-top: -1.6px;
+    min-height: 130px;
+    background: transparent;
+}	
+	
+div.find-out-more {
+	top: 90px;
+	bottom: auto;
+	border: 2px solid tranparent;
+	padding-left: 30px;
+}
+
+a.find-more-btn {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	display: block;
+	margin: auto;
+	width: 80%;
+	height: 50px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600;
+	color: white;
+	padding-top: 10px;
+	background-color: #091525;
+	border: 2px solid #091525;
+	-moz-border-radius: 0px; 
+	-webkit-border-radius: 0px; 
+	-ms-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-o-border-radius: 0px;
+	border-radius: 0px;
+	-webkit-transition: background-color 0.5s ease, padding-right 0.5s ease;
+	-moz-transition: background-color 0.5s ease, padding-right 0.5s ease;
+    -o-transition: background-color 0.5s ease, padding-right 0.5s ease;
+	-ms-transition: background-color 0.5s ease, padding-right 0.5s ease;
+	transition: background-color 0.5s ease, padding-right 0.5s ease;
+}
+
+a.find-more-btn:hover,
+a.find-more-btn:focus  {
+	color: #EDE832;
+	background-color: #091525;
+	border: 2.5px solid #EDE832;
+	padding-right: 40px;
+	-moz-border-radius: 15px; 
+	-webkit-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	border-radius: 15px;
+}
+
+a.find-more-btn span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+}
+
+a.find-more-btn span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	font-size: 25px;
+	font-weight: 600;
+	color: #EDE832;
+	top: -6px;								/*vertical align icon*/
+	right: 0px;								/*motion start point from declared direction*/
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+}
+
+a.find-more-btn:hover span {
+	padding-right: 0px;   					/*move the anchor border rightward*/
+}
+
+a.find-more-btn:hover span:after {
+	opacity: 1;
+	right: -30px;							/*specify the direction of movement length move from starting point*/
+}
+
+/*Container after Background Image*/
+.window-experience-wrapper {
+    padding-top: 0px;
+    /*Default height: 800px;*/
+    background: #091525;
+	min-height: 0px;
+}
+
+/*
+  =========================================================================================
+  Media Query Settings for Parallax Background Section Settings (After Experiences Section)
+  =========================================================================================
+*/
+@media screen and (max-width: 2560px){ 
+	/*For Storing Background Image*/
+	.parallax-window {
+    min-height: 180px;
+	}	
+	
+	div.find-out-more {
+	top: 75px;
+	}
+}
+
+@media screen and (max-width: 1920px){ 
+	/*For Storing Background Image*/
+	.parallax-window {
+    min-height: 250px;
+	}	
+	
+	div.find-out-more {
+	top: 80px;
+	}
+	
+	a.find-more-btn {
+	padding-top: 12px;
+	width: 63%;
+	font-size: 20px;
+	}
+	
+	a.find-more-btn span:after {
+	font-size: 30px;
+	top: -10.5px;						/*vertical align icon*/
+	}
+}
+
+@media screen and (max-width: 1280px){ 
+	/*For Storing Background Image*/
+	.parallax-window {
+    min-height: 300px;
+	}	
+	
+	div.find-out-more {
+	top: 35px;
+	}
+}
+
+@media screen and (max-width: 13360px){ 
+	div.find-out-more {
+	top: 30px;
+	}
+}
+
+
+@media screen and (max-width: 1200px){ 
+	/*For Storing Background Image*/
+	.parallax-window {
+    min-height: 350px;
+	}	
+}
+
+@media screen and (max-width: 1024px){ 
+	/*For Storing Background Image*/
+	.parallax-window {
+    min-height: 200px;
+}
+	
+	a.find-more-btn {
+	padding-top: 10px;
+	width: 60%;
+	}
+}
+
+@media screen and (max-width: 800px){ 
+	/*For Storing Background Image*/
+	.parallax-window {
+    min-height: 250px;
+	}	
+}
+
+@media screen and (max-width: 768px){ 
+	/*For Storing Background Image*/
+	.parallax-window {
+    min-height: 300px;
+	}	
+}
+
+@media screen and (max-width: 640px){ 
+	/*For Storing Background Image*/
+	.parallax-window {
+    min-height: 140px;
+	}	
+	
+	a.find-more-btn {
+	padding-top: 10px;
+	width: 50%;
+	}
+}
+
+@media screen and (max-width: 480px){ 
+	/*For Storing Background Image*/
+	.parallax-window {
+    min-height: 320px;
+	}	
+}
+
+@media screen and (max-width: 414px){ 
+/*For Storing Background Image*/
+	.parallax-window {
+    min-height: 300px;
+	}	
+}
+
+@media screen and (max-width: 400px){ 
+	/*For Storing Background Image*/
+	.parallax-window {
+    min-height: 150px;
+	}	
+	
+	div.find-out-more {
+	top: 50px;
+	}
+
+	a.find-more-btn {
+	padding-top: 2.8px;
+	height: 40px;
+	width: 50%;
+	}
+}
+
+@media screen and (max-width: 384px){ 
+	/*For Storing Background Image*/
+	.parallax-window {
+    min-height: 200px;
+	}	
+}
+
+@media screen and (max-width: 360px){ 
+	/*For Storing Background Image*/
+	.parallax-window {
+    min-height: 200px;
+	}	
+}
+
+@media screen and (max-width: 320px){ 
+	div.find-out-more {
+	top: 50px;
+	}
+
+	a.find-more-btn {
+	padding-top: 2.8px;
+	height: 40px;
+	width: 70%;
+	}
+}
+
+@media screen and (max-width: 280px){ 
+	/*For Storing Background Image*/
+	.parallax-window {
+    min-height: 180px;
+	}	
+}
+
+/*
+  ===============================================
+  Experience Section Settings 
+  ===============================================
+*/
+.experience {
+	background-color: #091525;
+}
+
+.experience-h1 {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 700;
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 0px;
+}
+
+.experience-p1,
+.experience-p2,
+.experience-p3 {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 500;
+	color: white;
+}
+
+.experience-p1 {
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.experience-p2 {
+	padding-bottom: 30px;
+}
+
+.experience-p3 {
+	padding-bottom: 60px;
+}
+
+li.experience-divider {
+	border-bottom: 2px solid #EDE832;
+	list-style-type: none;
+}
+
+.animation-experience-element {							/*Set element opaque zero initially*/
+	position: relative;
+}
+
+/*Linked to HTML Js*/
+/*slide up animation for the subject*/
+.slide-up .sub-exp {
+	opacity: 0;
+	-moz-transition: all 800ms ease-out;					/*Set time and motion method*/
+	-webkit-transition: all 800ms ease-out;
+	-o-transition: all 800ms ease-out;
+	transition: all 800ms ease-out;
+	-moz-transform: translate3d(0px, 200px, 0px);			/*positive y-distance*/
+	-webkit-transform: translate3d(0px, 200px, 0px);
+	-o-transform: translate(0px, 200px);
+	-ms-transform: translate(0px, 200px);
+	transform: translate3d(0px, 200, 0px);
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.slide-up.in-experience-view .sub-exp {
+	opacity: 1;
+	-moz-transform: translate3d(0px, 0px, 0px);			/*Set to original position after appearing*/
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	-o-transform: translate(0px, 0px);
+	-ms-transform: translate(0px, 0px);
+	transform: translate3d(0px, 0px, 0px);
+}
+
+
+/*
+  ===================================================
+  Media Query Settings for Experience Section
+  ===================================================
+*/
+@media (max-width: 1920px) {
+	.experience-h1 {
+	font-size: 45px;
+	}
+	
+	.experience-p1,
+	.experience-p2,
+	.experience-p3 {
+	font-size: 35px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.experience-h1 {
+	font-size: 40px;
+	}
+	
+	.experience-p1,
+	.experience-p2,
+	.experience-p3 {
+	font-size: 30px;
+	}
+}
+
+@media (max-width: 640px) {
+	.experience-h1 {
+	font-size: 35px;
+	}
+	
+	.experience-p1,
+	.experience-p2,
+	.experience-p3 {
+	font-size: 25px;
+	}
+}
+
+@media (max-width: 400px) {
+	.experience-h1 {
+	font-size: 30px;
+	}
+	
+	.experience-p1,
+	.experience-p2,
+	.experience-p3 {
+	font-size: 20px;
+	}
+}
+
+@media (max-width: 320px) {
+	.experience-h1 {
+	font-size: 25px;
+	}
+	
+	.experience-p1,
+	.experience-p2,
+	.experience-p3 {
+	font-size: 15px;
+	}
+}
+
+/*
+  ===============================================
+  Addition Div Section Settings 
+  ===============================================
+*/
+/*div to seperate experience section and portfolio section*/
+.addition {
+	border: 1px solid green;
+}
+
+/*
+  ===============================================
+  Portfolio Section Settings 
+  ===============================================
+*/
+.portfolio {
+	border: 1px solid transparent;
+	margin-top: 0px;
+	height: 1500px;
+	background-color: grey;
+}
+
+.portfolio-inner-div {
+	height: 100%;
+	position: relative;
+	background-color: transparent;
+}
+
+.portfolio-bg-content {
+	position: absolute;
+	top: 7%;
+	left: 0%;
+	z-index: 20;
+	border: 1px solid tranparent;
+}
+
+h1.portfolio-bg-content-heading {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 40px;
+	font-weight: 900;
+	text-align: center;
+	padding-left: 0px;
+	padding-bottom: 15px;
+	color: black;
+}
+
+.portfolio-btn-div {
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.portfolio-btn1,
+.portfolio-btn2,
+.portfolio-btn3 {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	height: 40px;
+	width: 40px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 2px solid black;							
+    color: black;
+	background-color: white;
+	cursor: pointer;								
+    -moz-border-radius: 50%; 
+	-webkit-border-radius: 50%; 
+	-o-border-radius: 50%; 
+	-ms-border-radius: 50%; 
+	border-radius: 50%;					
+}
+
+.portfolio-btn-divider {
+	display: inline-block;
+	border-bottom: 2px solid black;
+	width: 60px;
+}
+
+.portfolio-btn1:hover,
+.portfolio-btn1:focus,
+.portfolio-btn1.active {
+	color: white;
+	background-color: #00558D;								
+}
+
+.portfolio-btn2:hover,
+.portfolio-btn2:focus,
+.portfolio-btn2.active {
+	color: white;
+	background-color: #00558D;								
+}
+
+.portfolio-btn3:hover,
+.portfolio-btn3:focus,
+.portfolio-btn3.active {
+	color: white;
+	background-color: #00558D;								
+}
+
+h3.portfolio-bg-content-heading3 {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	padding-left: 0px;
+	color: black;
+}
+
+p.portfolio-bg-content-elaboration {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	text-align: center;
+	padding-left: 0px;
+	color: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.animation-portfolio-element {
+	opacity: 0;											/*Set element opaque zero initially*/
+	position: relative;
+}
+
+/*Linked to HTML Js*/
+/*animation element sliding left*/
+.animation-portfolio-element.portfolio-slide-left {
+	opacity: 0;
+	-moz-transition: all 1000ms linear;					/*Set time and motion method*/
+	-webkit-transition: all 1000ms linear;
+	-o-transition: all 1000ms linear;
+	transition: all 1000ms linear;
+	-moz-transform: translate3d(-100px, 0px, 0px);		/*negative x-distance*/
+	-webkit-transform: translate3d(-100px, 0px, 0px);
+	-o-transform: translate(-100px, 0px);
+	-ms-transform: translate(-100px, 0px);
+	transform: translate3d(-100px, 0px, 0px);
+}
+
+.animation-portfolio-element.portfolio-slide-left.in-portfolio-view {
+	opacity: 1;
+	-moz-transform: translate3d(0px, 0px, 0px);			/*Set to original position after appearing*/
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	-o-transform: translate(0px, 0px);
+	-ms-transform: translate(0px, 0px);
+	transform: translate3d(0px, 0px, 0px);
+}
+/*end of animation element sliding left*/
+
+/*bounce up animation for the subject*/
+.bounce-up1 .subject1,
+.bounce-up2 .subject2 {
+	opacity: 0;
+	-moz-transition: all 700ms ease-out;				/*Set time and motion method*/
+	-webkit-transition: all 700ms ease-out;
+	-o-transition: all 700ms ease-out;
+	transition: all 700ms ease-out;
+	-moz-transform: translate3d(0px, 500px, 0px);		/*positive y-distance*/
+	-webkit-transform: translate3d(0px, 500px, 0px);
+	-o-transform: translate(0px, 500px);
+	-ms-transform: translate(0px, 500px);
+	transform: translate3d(0px, 500px, 0px);
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.bounce-up1.in-view .subject1,
+.bounce-up2.in-view .subject2 {
+	opacity: 1;
+	-moz-transform: translate3d(0px, 0px, 0px);			/*Set to original position after appearing*/
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	-o-transform: translate(0px, 0px);
+	-ms-transform: translate(0px, 0px);
+	transform: translate3d(0px, 0px, 0px);
+} 
+
+/*
+  ===================================================
+  Media Query Settings for Portfolio Section
+  ===================================================
+*/
+@media screen and (max-width: 320px) {
+	@-ms-viewport { width: 320px; }
+  
+	/* CSS for 280px layout goes here */
+	.portfolio-btn1,
+	.portfolio-btn2,
+	.portfolio-btn3 {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 11px;
+	padding-left: 10px;
+	height: 30px;
+	width: 30px;
+	margin-left: 0px;
+	margin-right: 0px;				
+}
+	
+	.portfolio-btn-divider {
+	width: 5px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	@-ms-viewport { width: 320px; }
+  
+	/* CSS for 320px layout goes here */
+	.portfolio {
+	height: 530px;
+	}
+	
+	.portfolio-bg-content {
+	top: 5%;
+	}
+	
+	.portfolio-btn1,
+	.portfolio-btn2,
+	.portfolio-btn3 {
+	margin-left: 2px;
+	margin-right: 2px;			
+	}
+	
+	.portfolio-btn-divider {
+	width: 50px;
+	}
+	
+	h1.portfolio-bg-content-heading {
+	font-size: 22px;
+	}
+	
+	h3.portfolio-bg-content-heading3 {
+	font-size: 20px;
+	}
+	
+	p.portfolio-bg-content-elaboration {
+	font-size: 16px;
+	}
+}
+
+@media screen and (min-width: 400px) and (max-width: 640px) {
+	@-ms-viewport { width: 400px; }
+  
+	/* CSS for 400px layout goes here */
+	.portfolio {
+	height: 650px;
+	}
+	
+	.portfolio-bg-content {
+	top: 5%;
+	}
+	
+	.portfolio-btn1,
+	.portfolio-btn2,
+	.portfolio-btn3 {
+	margin-left: 5px;
+	margin-right: 5px;			
+	}
+	
+	.portfolio-btn-divider {
+	width: 53px;
+	}
+	
+	h1.portfolio-bg-content-heading {
+	font-size: 30px;
+	}
+	
+	h3.portfolio-bg-content-heading3 {
+	font-size: 25px;
+	}
+	
+	p.portfolio-bg-content-elaboration {
+	font-size: 22px;
+	}
+}
+
+@media screen and (min-width: 640px) and (max-width: 1024px) {
+	@-ms-viewport { width: 640px; }
+	/* CSS for 640px layout goes here */
+	.portfolio {
+	height: 900px;
+	}
+	
+	.portfolio-bg-content {
+	top: 5%;
+	}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+	@-ms-viewport { width: 1024px; }
+	/* CSS for 1024px layout goes here */
+	.portfolio {
+	height: 1150px;
+	}
+  
+}
+
+@media screen and (min-width: 2560px) {
+	/* CSS for 2560px layout goes here */
+   .portfolio {
+	height: 2000px;
+	}
+}
+
+/*
+  ===============================================
+  Future Section Settings 
+  ===============================================
+*/
+.future-container {
+	background-color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.future-h1 {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 50px;
+	font-weight: 900;
+	color: black;
+	padding-bottom: 3px;
+}
+
+li.future-divider {
+	display: none;
+	border-bottom: 2px solid black;
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+
+.future-p1,
+.future-p2,
+.future-p3,
+.future-p4 {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	color: black;
+}
+
+.jssor-div {
+	position: relative;
+	margin: 0 auto;
+	top: 35px;
+	left: 0px;
+	width: 980px;
+	height: 100px;
+	overflow: hidden;
+	visibility:hidden;
+}	
+
+.loading-div {
+	position:absolute;
+	top:0px;
+	left:0px;
+	background-color:rgba(0,0,0,0.7);
+}
+
+.filter-div {
+	filter: alpha(opacity=70);
+	opacity: 0.7; 
+	position: absolute;
+	display: block; 
+	top: 0px; 
+	left: 0px; 
+	width: 100%;
+	height: 100%;
+}
+
+.loading-logo-div {
+	position: absolute;
+	display: block;
+	background: url('../images/logos/loading.gif') no-repeat center center;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.logo-slide-div {
+	cursor: default;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 980px;
+	height: 100px;
+	overflow: hidden;
+}
+
+/*
+  ===================================================
+  Media Query Settings for Future Section
+  ===================================================
+*/
+@media (max-width: 1479px) {
+	.jssor-div {
+	top: 55px;
+	}
+}
+
+@media (max-width: 1127px) {
+	.jssor-div {
+	top: 70px;
+	}
+}
+
+@media (max-width: 992px) {
+	.future-h1 {
+	font-size: 40px;
+	text-align: center;
+	}
+	
+	li.future-divider {
+	display: inherit;
+	}
+
+	.future-p1,
+	.future-p2,
+	.future-p3,
+	.future-p4 {
+	font-size: 20px;
+	text-align: center;
+	}
+	
+	.jssor-div {
+	margin-bottom: 30px;
+	top: 25px;
+	}
+}
+
+@media (max-width: 767px) {
+	.future-h1 {
+	font-size: 30px;
+	text-align: center;
+	}
+
+	.future-p1,
+	.future-p2,
+	.future-p3,
+	.future-p4 {
+	font-size: 18px;
+	text-align: center;
+	}
+}
+
+/*
+  ===============================================
+  Future Project Section Settings 
+  ===============================================
+*/
+.future-project-h1 {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 45px;
+	font-weight: 800;
+	text-align: center;
+	color: black;
+	padding-bottom: 10px;
+}
+
+li.future-project-divider {
+	border-bottom: 2px solid grey;
+	list-style-type: none;
+	margin-bottom: 50px;
+}
+
+.future-project-inner-container {
+	padding-bottom: 50px;
+}
+
+.project1,
+.project2,
+.project3 {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 28px;
+	font-weight: 700;
+	text-align: center;
+	color: black;
+	padding-bottom: 10px;
+}
+
+.project1-details,
+.project2-details,
+.project3-details {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 28px;
+	font-weight: 400;
+	text-align: center;
+	color: black;
+	padding-bottom: 10px;
+}
+
+
+/*left fancy animation for project_1 & project_3*/
+@-moz-keyframes left_animation {
+  0% {
+    opacity: 0;
+    -moz-transform: rotate(180deg) translate3d(100%, 100%, 0);
+  }
+  75% {
+    opacity: 0.8;
+    -moz-transform: rotate(-40deg);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: rotate(0deg) translate3d(0%, 0%, 0);
+  }
+}
+
+@-webkit-keyframes left_animation {
+  0% {
+    opacity: 0;
+    -webkit-transform: rotate(180deg) translate3d(100%, 100%, 0);
+  }
+  75% {
+    opacity: 0.8;
+    -webkit-transform: rotate(-40deg);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: rotate(0deg) translate3d(0%, 0%, 0);
+  }
+}
+
+@keyframes left_animation {
+  0% {
+    opacity: 0;
+    transform: rotate(180deg) translate3d(100%, 100%, 0);
+  }
+  75% {
+    opacity: 0.8;
+    transform: rotate(-40deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(0deg) translate3d(0%, 0%, 0);
+  }
+}
+/*End of left fancy animastion*/
+
+/*right fancy animation for project_2*/
+@-moz-keyframes right_animation {
+  0% {
+    opacity: 0;
+    -moz-transform: rotate(180deg) translate3d(-100%, -100%, 0);
+  }
+  75% {
+    opacity: 0.8;
+    -moz-transform: rotate(40deg);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: rotate(0deg) translate3d(0%, 0%, 0);
+  }
+}
+
+@-webkit-keyframes right_animation {
+  0% {
+    opacity: 0;
+    -webkit-transform: rotate(180deg) translate3d(-100%, 100%, 0);
+  }
+  75% {
+    opacity: 0.8;
+    -webkit-transform: rotate(40deg);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: rotate(0deg) translate3d(0%, 0%, 0);
+  }
+}
+
+@keyframes right_animation {
+  0% {
+    opacity: 0;
+    transform: rotate(180deg) translate3d(-100%, -100%, 0);
+  }
+  75% {
+    opacity: 0.8;
+    transform: rotate(40deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(0deg) translate3d(0%, 0%, 0);
+  }
+}
+/*End of right fancy animation*/
+
+/*Multi-step animation*/
+.multi-step-left .gallery,
+.multi-step-right .gallery {
+	position: relative;
+	opacity: 0;														/*Set element opaque zero initially*/
+  /*prevents flicker as animation occurs*/
+}
+
+/*Linked to HTML Js*/
+.multi-step-left.in-project-view .gallery {
+	-moz-animation: left_animation 1300ms ease-in both;				/*Set time and motion method*/
+	-webkit-animation: left_animation 1300ms ease-in both;
+	-ms-animation: left_animation 1300ms ease-in both;
+	-o-animation: left_animation 1300ms ease-in both;
+	animation: left_animation 1300ms ease-in both;
+}
+
+.multi-step-right.in-project-view .gallery {
+	-moz-animation: right_animation 1300ms linear both;
+	-webkit-animation: right_animation 1300ms linear both;
+	-ms-animation: right_animation 1300ms linear both;
+	-o-animation: right_animation 1300ms linear both;
+	animation: right_animation 1300ms linear both;
+}
+/*End of Multi-step animation*/
+
+/*
+  ===================================================
+  Media Query Settings for Future Project Section
+  ===================================================
+*/
+@media (max-width: 992px) {
+	.future-project-h1 {
+	font-size: 35px;
+	}
+	
+	.future-project-1,
+	.future-project-2	{
+	border-bottom: 1px solid grey;
+	}
+	
+	.future-project-2,
+	.future-project-3 {
+	padding-top: 60px;
+	}
+
+	.project1,
+	.project2,
+	.project3 {
+	font-size: 24px;
+	}
+	
+	.project1-details,
+	.project2-details,
+	.project3-details {
+	font-size: 24px;
+	}
+}
+
+@media (max-width: 767px) {
+	.future-project-h1 {
+	font-size: 30px;
+	}
+	
+	.future-project-1,
+	.future-project-2	{
+	border-bottom: 1px solid grey;
+	}
+	
+	.future-project-2,
+	.future-project-3 {
+	padding-top: 60px;
+	}
+	
+	.project1,
+	.project2,
+	.project3 {
+	font-size: 20px;
+	}
+	
+	.project1-details,
+	.project2-details,
+	.project3-details {
+	font-size: 20px;
+	}
+}
+
+/*
+  ===============================================
+  Contact Section Settings 
+  ===============================================
+*/
+.contact-container {
+	background-color: #091525;
+	padding-bottom: 30px;
+}
+
+.contact-heading {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-align: center;
+	font-size: 35px;
+	font-weight: 700;
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 0px;
+}
+
+li.contact-divider {
+	border-bottom: 2px solid #EDE832;
+	list-style-type: none;
+}
+
+.contact-p {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-align: center;
+	font-size: 25px;
+	font-weight: 400;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+
+form {
+	padding-top: 20px;
+}
+
+input.input-name {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 20px;
+	color: black;
+	font-weight: 400;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border-radius: 3px;
+	display: block;
+	margin: auto;
+	width: 60%;
+}
+
+input.input-name:focus {
+	border-color: grey;
+	background-color: #EDE832;
+	outline: 0;
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 85, 141,.075),0 0 8px rgba(0, 85, 141,.6);
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 85, 141,.075),0 0 8px rgba(0, 85, 141,.6);
+	-o-box-shadow: inset 0 1px 1px rgba(0, 85, 141,.075),0 0 8px rgba(0, 85, 141,.6);
+	-ms-box-shadow: inset 0 1px 1px rgba(0, 85, 141,.075),0 0 8px rgba(0, 85, 141,.6);
+	box-shadow: inset 0 1px 1px rgba(0, 85, 141,.075),0 0 8px rgba(0, 85, 141,.6);
+} 
+
+textarea.message-input {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 20px;
+	color: black;
+	font-weight: 400;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border-radius: 3px;
+	display: block;
+	margin: 10px auto;
+	width: 60%;
+}
+
+textarea.message-input:focus {
+	border-color: grey;
+	background-color: #EDE832;
+	outline: 0;
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 85, 141,.075),0 0 8px rgba(0, 85, 141,.6);
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 85, 141,.075),0 0 8px rgba(0, 85, 141,.6);
+	-o-box-shadow: inset 0 1px 1px rgba(0, 85, 141,.075),0 0 8px rgba(0, 85, 141,.6);
+	-ms-box-shadow: inset 0 1px 1px rgba(0, 85, 141,.075),0 0 8px rgba(0, 85, 141,.6);
+	box-shadow: inset 0 1px 1px rgba(0, 85, 141,.075),0 0 8px rgba(0, 85, 141,.6);
+} 
+
+button.submit-message {
+	display: block;
+	vertical-align: middle;
+	width: 150px;
+	font-size: 20px;
+	font-weight: 300;
+	margin: auto;
+	margin-top: 20px;
+	padding: 10px 20px;
+	border: 2px solid white;
+	color: white;
+	background-color: #091525;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border-radius: 3px;
+	cursor: pointer;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+button.submit-message span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+button.submit-message span:after {
+	font-family: FontAwesome;
+	content: '\f1d9';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: 5px;
+	transition: 0.5s;
+}
+
+button.submit-message:hover span {
+	padding-right: 45px;
+	color: #EDE832;
+}
+
+button.submit-message:hover span:after {
+	opacity: 1;
+	right: 0;
+	color: #EDE832;
+}
+
+button.submit-message:hover,
+button.submit-message:focus {
+	border: 2px solid #EDE832;
+	color: #EDE832;
+	background-color: #091525;
+}
+
+.contact-social {
+	text-align: center;
+	font-size: 25px;
+	font-weight: 400;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+
+.socialicon1,
+.socialicon2,
+.socialicon3 {
+	font-size: 20px;
+	color: white;
+	line-height: 25px;
+	text-align: center;
+	margin-top: 4.5px;
+}
+
+.socialicon1-link,
+.socialicon2-link,
+.socialicon3-link {
+	display: inline-block;
+	position: relative;
+	margin: 5px 10px 0 10px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+	text-align: center;
+	width: 40px;
+	height: 40px;
+	font-size: 5px;
+	border: 2px solid white;
+}
+
+.socialicon1-link:hover,
+.socialicon2-link:hover,
+.socialicon3-link:hover {
+	background-color: #091525;	
+	border: 2px solid #EDE832;	
+}
+
+.socialicon1-link:focus,
+.socialicon2-link:focus,
+.socialicon3-link:focus {
+	background-color: #091525;	
+	border: 2px solid #EDE832;	
+}
+
+.socialicon1-link:hover .socialicon1,
+.socialicon2-link:hover .socialicon2,
+.socialicon3-link:hover .socialicon3 {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+	background-color: #091525;
+	color: #EDE832;	
+}
+
+.socialicon1,
+.socialicon2,
+.socialicon3 {
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+/*
+  ===================================================
+  Media Query Settings for Contact Section
+  ===================================================
+*/
+@media (max-width: 992px) {
+	.contact-heading {
+	font-size: 30px;
+	}
+
+	.contact-p	{
+	font-size: 22px;
+	}
+	
+	.contact-social {
+	font-size: 22px;
+	}
+}
+
+@media (max-width: 767px) {
+	.contact-heading {
+	font-size: 25px;
+	}
+
+	.contact-p	{
+	font-size: 18px;
+	}
+	
+	.contact-social {
+	font-size: 18px;
+	}
+	
+	input.input-name {
+	width: 100%;
+	}
+	
+	textarea.message-input {
+	width: 100%;
+	}
+}
+
+@media (max-width: 530px) {
+	.contact-heading {
+	font-size: 22px;
+	}
+}
+
+/*
+  ===============================================
+  Footer Section Settings 
+  ===============================================
+*/
+.sec-footer-div {
+	padding-top: 50px;
+	background-color: grey;
+}
+
+.footer-li {
+	border-right: 1px solid black;
+}
+
+.footer-li > a {
+	color: black;
+	padding-right: 5px;
+	font-size: 15px; 
+}
+
+.back-to-top {
+	color: black;
+	font-size: 15px;
+}
+
+.back-to-top:hover,
+.back-to-top:focus {
+	text-decoration: none;
+	color: #EDE832;
+}
+
+/*
+  ===================================================
+  Media Query Settings for Footer Section
+  ===================================================
+*/
+@media (max-width: 335px) {
+	.sec-footer-div {
+	padding-top: 30px;
+	}
+	
+	.footer-li > a {
+	padding-right: 3px;
+	font-size: 12px; 
+	}
+
+	.back-to-top {
+	font-size: 12px;
+	}
+}
+
+@media (max-width: 271px) {
+	.sec-footer-div {
+	padding-top: 15px;
+	}
+	
+	.footer-li > a {
+	padding-right: 1px;
+	font-size: 10px; 
+	}
+
+	.back-to-top {
+	font-size: 10px;
+	}
+}
+
+@media (max-width: 245px) {
+	.sec-footer-div {
+	padding-top: 7px;
+	}
+	
+	.footer-li > a {
+	padding-right: 0px;
+	font-size: 8px; 
+	}
+
+	.back-to-top {
+	font-size: 8px;
+	}
+}
+
+/*
+  ===============================================
+  Top Visible/Invisible Button Settings 
+  ===============================================
+*/
+.scroll-top-wrapper {
+    position: fixed;
+	opacity: 0;
+	visibility: hidden;
+	overflow: hidden;
+	text-align: center;
+	z-index: 99999999;
+    background-color: #2C6777;
+	color: #eeeeee;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	right: 30px;
+	bottom: 30px;
+	padding-top: 1px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.scroll-top-wrapper:hover {
+	background-color: #091525;
+	color: #EDE832;
+}
+
+.scroll-top-wrapper.show {
+    visibility: visible;
+    cursor: pointer;
+	opacity: 1.0;
+}
+
+.scroll-top-wrapper i.fa {
+	line-height: inherit;
+}
+
