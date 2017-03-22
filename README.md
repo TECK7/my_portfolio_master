@@ -42,6 +42,14 @@
 	
 	5.1 [HTML File](#html-file)
 
+6. [Folder Structure](#folder-structure)
+
+7. [Challenges and Difficulties](#challenges-and-difficulties)
+
+8. [Summary](#summary)
+
+9. [Live Webpage via Github](#live-webpage-via-github)
+
 ### Webpage Building Intent
 
 The core intention of building this personal website is to promote myself to prospective employers. 
@@ -245,7 +253,7 @@ several other CSS files are linked to the HTML file due to various plugin implem
 
 ---
 
-### 6. Folder structure
+### Folder Structure
 There are three main folders in this webpage project. The folders are css, images and js. The index.html sitting outside of these folders is the only HTML file for this webpage. 
 The css folder contains bootstrap css, font-awesome icons and other plugin css. 
 
@@ -260,7 +268,7 @@ This xml file is stored at the root of the webpage. In other words, it is locate
 
 ---
 
-### 7. Challenges & Difficulties 
+### Challenges and Difficulties 
 There are a several challenges and difficulties during the process of the building the webpage. These obstacles arise during the implementation of various features / effects into the 
 webpage from third party plugins. Enormous amount of effort and time needed to ensure third party plugins works harmoniously with Bootstrap framework. 
 
@@ -284,7 +292,7 @@ not work on Internet Explorer when tested. Again, through using some professiona
 
 ---
 
-### 8. Summary
+### Summary
 In summary, wireframe exercise at the start of the webpage building process had helped me to focus what I really want to achieve for my webpage. The style guide, colour scheme, section layouts from 
 the wireframe had set me up to code HTML and CSS in a more oraganised way. However, without Javascript skills, it is difficult to implement features and effects into your webpage requirements. 
 Thankfully, there are plenty of tutorials, guidance and plugins available to assist my implementation. However, not all sources from the internet are reliable until there are tested out in my project.
