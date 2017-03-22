@@ -193,4 +193,31 @@ search engines to capture all information and display below the webpage link of 
 
 The rest of the HTML file is followed by a <body> tag that keeps all the HTML contents. 
 
+##### CSS File
+As mentioned in previous sections, a '(script)' tag after the closing '(/body)' is created to contain some JavaScript to run some required features / effects. 
+These scripts are needed only after the webpage is fully loaded.  Thus, by using style early and script last principle prevails as browsers work top-to-bottom.  
+In other words, the principle mentioned here is to prevent unnecessary scripts at the top from delaying or blocking the rest of the page from rendering. 
+
+CSS file is written using CSS3 compliant properties and attributes. There is only one custom CSS file written when building the webpage. It is name custom.css 
+which is stored in css folder. This file is linked with the HTML file under <!-- Custom CSS --> using stylesheet relation. It is important to point out that the 
+navigation bar CSS is stored in bootstrap_offcanvas.css file. This would ensure all navigation related CSS is only managed under a single file. Besides, there are 
+several other CSS files are linked to the HTML file due to various plugin implementations into the webpage. All of these CSS files are embedded within the '(head) tag.  
+
+---
+
+### 6. Folder structure
+There are three main folders in this webpage project. The folders are css, images and js. The index.html sitting outside of these folders is the only HTML file for this webpage. 
+The css folder contains bootstrap css, font-awesome icons and other plugin css. 
+
+The images folder consists of four sub-folders. These folders’ name is backgrounds, icons, logos, pictures and social. These folders are used to stored images that would be 
+appearing on the webpage. The icons folder is used to stored favicons generated for the webpage. These favicons are displayed on different web browser tab. 
+
+The robot.txt is created at the root directory. The robot is not allowed to access the js folder, images folder, css/icons folder, css/bootstrap_offcanvas.css file and css/custom.css file.
+
+In general, large webpage with many pages would have a sitemap as a standard. Nevertheless, a sitemap xml file is created to allow the search engines to index a webpage much quicker. 
+Once the final project is uploaded to the repository and obtained the live webpage https://teck7.github.io/teck.github.io, this link is submitted to https://www.xml-sitemaps.com to 
+generate the sitemap.xml for my personal webpage. This xml file is stored at the root of the webpage. In other words, it is locate at the same directory level as index.html and robot.txt.
+
+---
+
 
