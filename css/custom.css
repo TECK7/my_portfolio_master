@@ -424,6 +424,16 @@ a.chn-btn:hover span:after {
 	}
 }
 
+@media (max-width: 260px) {
+	a.eng-btn:hover span {
+	padding-right: 10px;   					/*move the anchor border rightward*/
+	}
+	
+	a.chn-btn:hover span {
+	padding-right: 10px;   					/*move the anchor border rightward*/
+	}
+}
+
 /*
   ===============================================
   Carousel Section Settings (Home Page)
