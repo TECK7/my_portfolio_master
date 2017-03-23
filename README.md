@@ -41,6 +41,8 @@
 5. [HTML and CSS Files](#html-and-css-files)
 	
 	5.1 [HTML File](#html-file)
+	
+	5.2 [CSS File](#css-file)
 
 6. [Folder Structure](#folder-structure)
 
