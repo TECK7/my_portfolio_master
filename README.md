@@ -167,7 +167,7 @@ features/effects added in are to enhance user browsing and navigating experience
 The navigation section is fixed at the top of the page using class navbar-fixed-top. This also means that the navigation bar will always appear at 
 the top of the screen wherever the user scrolls downward. In order to save some screen estate, I had included a headroom.js plugin combined with 
 some jquery script to hide the navigation bar as the user scroll downward to other contents. The navigation bar will be shown as the user scroll upward. 
-This headroom.js plugin is hosted by WickyNilliams on Github. The jquery script can be referred inside the HTML body tag under ' “(!-- For Hiding and Showing Navbar onScroll --)” '.
+This headroom.js plugin is hosted by WickyNilliams on Github. The jquery script can be referred inside the HTML body tag under `“(!-- For Hiding and Showing Navbar onScroll --)”`.
 
 The burger toggle button will also slide in a menu bar from the left when is clicked. This menu slide in feature is a non standard Bootstrap feature and is 
 implemented using Bootstrap-Offcanvas plugin contributed by Phil Hughes on Github. The reason for this implementation is to adopt current mobile menu design trend.
