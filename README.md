@@ -134,7 +134,8 @@ at breakpoints width less than 768px.
 
 The subsequent container is a Bootstrap carousel container that contains three different images and its respective image caption. This container
 is not declared as a main section but a brief opening section at the start once the page is loaded. “About Myself” section would be the following
-container right after the carousel container. The container contains an underlined heading and three paragraphs. 
+container right after the carousel container. I had chosen these images because I wanted people around the world who visited this webpage to know what 
+Melbourne has got to offer. The container contains an underlined heading and three paragraphs. 
 
 ![figure 2 md](https://cloud.githubusercontent.com/assets/22834712/24225064/99191fa6-0fb2-11e7-94ab-435efe8db98a.jpg)
 
