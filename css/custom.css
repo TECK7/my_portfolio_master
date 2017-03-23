@@ -82,8 +82,8 @@
     width: 15px;
     height: 15px;
 	margin-bottom: 15px;
-	margin-left: 5px;
-	margin-right: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
     text-indent: 0;
     cursor: pointer;
     border: 1px solid white;								
@@ -221,6 +221,14 @@
 	font-size: 18px;
 	font-weight: 400;
 	letter-spacing: 0.1em;
+	}
+	
+	.carousel-indicators li {
+	margin-bottom: 35px;						 	
+	}
+	
+	.carousel-indicators .active {
+    margin-bottom: 35px;
 	}
 }
 
