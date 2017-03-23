@@ -242,6 +242,16 @@
 	}
 }
 
+@media (max-width: 360px) {
+	.carousel-indicators li {
+	margin-bottom: 90px;						 	
+	}
+	
+	.carousel-indicators .active {
+    margin-bottom: 90px;
+	}
+}
+
 /*
   ===============================================
   About Myself Section Settings 
