@@ -50,7 +50,11 @@
 
 8. [Summary](#summary)
 
-9. [Live Webpage via Github](#live-webpage-via-github)
+9. [Reference Lists](#reference-lists)
+
+10. [Live Webpage via Github](#live-webpage-via-github)
+
+11. [What's Up Next?](#what's-up-next)
 
 ### Webpage Building Intent
 
@@ -178,73 +182,73 @@ In the carousel container section, Bootstrap carousel.js is used. In fact, left 
 This action was taken because of two main reasons. The first is not to allow these controls to further impede the view of the images in mobile layout. 
 Secondly, the carousel indicators would be sufficient for the user to cycle through the carousel. TouchSwipe j.query plugin hosted by Matt Bryson on Github 
 is included onto the carousel container. This plugin allows user to swipe through the carousel images. Additional JavaScript would be needed and can be referred
-at script outside the HTML body tag “//For Carousel Swipe Touch Function (Refering to Jquery Mobile Touch-gesture JavaScript)”. In reality, this is a standard 
+at script outside the HTML body tag `“//For Carousel Swipe Touch Function (Refering to Jquery Mobile Touch-gesture JavaScript)”`. In reality, this is a standard 
 feature on mobile gadgets if carousel images are to be added. 
 
 Special effects have also been added to the first image of the carousel and the image captions. These effects are implemented using Animate.css plugin 
 hosted by Daniel Eden on Github combined with some JavaScript written by Maria Antonietta Perna at Sitepoint. User can notice that once the page is loaded, 
-the first carousel image will zoom in from out. This is accomplished by JavaScript found inside the HTML body tag under “(!-- For Carousel Image ONLY animation --)”.
+the first carousel image will zoom in from out. This is accomplished by JavaScript found inside the HTML body tag under `“(!-- For Carousel Image ONLY animation --)”`.
 The image caption will slide upward from the bottom instantaneously at every cycled image. This effect is to spice up the caption appearance. 
 Final effect in this section is the caption would fade away gradually as the user scroll down using simple JavaScript. This effect is worthwhile because it
 actually inform the user that he/she is leaving the current container and should be focusing the contents on the upcoming container. Please refer to script outside
-the HTML body tag “//Fade Carousel Caption when Schroll down” for details.
+the HTML body tag `“//Fade Carousel Caption when Schroll down”` for details.
 
 When the screen resizes, the carousel images also resize. This responsive feature on the image is needed since Bootstrap carousel default is override by other
-CSS properties.  Please refer to script outside the HTML body tag “//For Responsive Carousel Images when screen resizes” for details.
+CSS properties.  Please refer to script outside the HTML body tag `“//For Responsive Carousel Images when screen resizes”` for details.
 
 #### About Myself Section
-In “About Myself” section, the container (i.e. #about-wrapper) have higher index value than the carousel container (i.e. #carousel-img). 
+In “About Myself” section, the container `(i.e. #about-wrapper)` have higher index value than the carousel container `(i.e. #carousel-img)`. 
 This setup is to enable parallax effect over the carousel images. The real purpose of including a parallax effect is to create an illusion of depth 
 in a 2D scene and adding to the immersion. This effect would not work if JavaScript is not added. Please refer to script inside the HTML body tag 
-“(!-- For Parallax Effect over Carousel --)” for details. The contents within the container would slide in from the left as user scroll towards the viewport. 
+`“(!-- For Parallax Effect over Carousel --)”` for details. The contents within the container would slide in from the left as user scroll towards the viewport. 
 As the user leaves the viewport, the contents would disappear. This is the combination of JavaScript and CSS written by Simon Codrington at Sitepoint. 
-The benefit of this is to provide an interesting and interactive experience to engage the user. Please refer to script inside the HTML body tag “(!--For About Myself Contents --)”
+The benefit of this is to provide an interesting and interactive experience to engage the user. Please refer to script inside the HTML body tag `“(!--For About Myself Contents --)”`
 for details.
 
 #### Background Image Container
-In this container (#"experience-sec0), parallax effect over the background images has been implemented. The script details can be found script inside the HTML
-body tag under “(!-- For Parallax --)”. This effect is added not only create an illusion similar to “About Myself” section but also encourage user to view more 
+In this container `(#"experience-sec0)`, parallax effect over the background images has been implemented. The script details can be found script inside the HTML
+body tag under `“(!-- For Parallax --)”`. This effect is added not only create an illusion similar to “About Myself” section but also encourage user to view more 
 of the image when scrolling upward and downward. Unfortunately, this plugin does not work on Android and IOS devices. The image would static without any degradation. 
 A hover effect has been introduced to the “read more” button although hover does not really work well on mobile gadgets. However, the user would still be able to appreciate 
 the effect because the CSS pseudo-class :focus is applied with same attributes. This means that if user clicked on the button the effect could still be seen. 
 
 #### Experience Section
-Contents within this container (i.e. #experience-sec) would slide up from the bottom as user scroll towards the viewport. As the user leaves the viewport, the contents 
-would disappear. This is the combination of JavaScript and CSS written by Simon Codrington at Sitepoint. Please refer to script inside the HTML body tag “(!-- For Experience Contents --)” 
+Contents within this container `(i.e. #experience-sec)` would slide up from the bottom as user scroll towards the viewport. As the user leaves the viewport, the contents 
+would disappear. This is the combination of JavaScript and CSS written by Simon Codrington at Sitepoint. Please refer to script inside the HTML body tag `“(!-- For Experience Contents --)”` 
 for details.
 
 #### Portfolio Section
-In this container (i.e. # portfolio-sec) would slide in from the left as user scroll towards the viewport. As the user leaves the viewport, the contents would disappear. 
-This is the combination of JavaScript and CSS written by Simon Codrington at Sitepoint. Please refer to script inside the HTML body tag “(!-- For Portfolio Contents --)” for details.
+In this container `(i.e. # portfolio-sec)` would slide in from the left as user scroll towards the viewport. As the user leaves the viewport, the contents would disappear. 
+This is the combination of JavaScript and CSS written by Simon Codrington at Sitepoint. Please refer to script inside the HTML body tag `“(!-- For Portfolio Contents --)”` for details.
 
 Once the user is in the viewport, user could toggle on so called “button” labelled as 1, 2 and 3 to show different portfolios. It is important to note that the first portfolio 
 under “button 1” is always shown once user is in the viewport.  The user can click on button 2 and button 3 to review other portfolios. Each portfolio would slide¬ in from the 
 bottom once user clicked on the button 2 and button 3. Again, this is the combination of JavaScript and CSS written by Simon Codrington at Sitepoint. Please refer to script 
-outside the HTML body tag “(!-- Portfolio Section --)” for details. The reason for this implementation is to allow more user interaction with my contents and help reduce the user’s 
+outside the HTML body tag `“(!-- Portfolio Section --)”` for details. The reason for this implementation is to allow more user interaction with my contents and help reduce the user’s 
 scrolling footprint.
 
 #### Future Section
-The contents of this container (i.e. # future-project-sec) have two noticeable features. The first one is having a slider container that cycle through all the logos infinitely.
+The contents of this container `(i.e. # future-project-sec)` have two noticeable features. The first one is having a slider container that cycle through all the logos infinitely.
 This feature is implemented by using a minified JavaScript file and some scripts within the HTML body tag together with other CSS. The details can be found on 
-“(!-- For Skills Logo/Icon Slider --)”. The advantage of having this slider is that it could save some space within the container and giving these logo a tidy inline look.
+`“(!-- For Skills Logo/Icon Slider --)”`. The advantage of having this slider is that it could save some space within the container and giving these logo a tidy inline look.
 
 The second feature can be seen on ‘Future Project’ section. The three different projects would bounce in from different angles as user scroll towards the 
 viewport. As the user leaves the viewport, the contents would disappear. This is the combination of JavaScript and CSS written by Simon Codrington at Sitepoint. 
-Please refer to script inside the HTML body tag “(!-- Future Project Section --)” for details. It is a good feature inclusion when user is anticipating your future projects.
+Please refer to script inside the HTML body tag `“(!-- Future Project Section --)”` for details. It is a good feature inclusion when user is anticipating your future projects.
 
 #### Contact Section
-This section is straightforward. All responsiveness used Bootstrap CSS theme. Formspree.io is used for email and message input fields. This tool offers 1000 
+This section is straightforward. All responsiveness used Bootstrap CSS theme. `Formspree.io` is used for email and message input fields. This tool offers 1000 
 submissions per email each month and it is sufficient for static webpage. The social links are included using font-awesome icons with some special CSS pseudo 
 class :hover and :focus effect.
 
 #### Footer Section
 This section does not any special features apart from giving each specified section links and the back to top arrow a smooth scrolling effect. 
-This is achieved by including a script outside of the HTML body tag which can be found under “(!-- Script for Individual Section Scroll --)” for individual section 
-and “(!--Script for Scroll to Top from footer Section --)” for the back to top button.
+This is achieved by including a script outside of the HTML body tag which can be found under `“(!-- Script for Individual Section Scroll --)”` for individual section 
+and `“(!--Script for Scroll to Top from footer Section --)”` for the back to top button.
 
 #### Additional Feature
 User may also notice that a floating back to top button would appear on the screen when viewport is 200mm from the top of the screen. This script is 
-implemented on the outside of the HTML body tag under “(!-- Section of Scroll to Top Visible/Invisible Button --)”.
+implemented on the outside of the HTML body tag under `“(!-- Section of Scroll to Top Visible/Invisible Button --)”`.
 
 [Webpage Design Documentation Contents](#webpage-design-documentation-contents)
 
@@ -254,30 +258,30 @@ implemented on the outside of the HTML body tag under “(!-- Section of Scroll 
 
 #### HTML File
 
-The HTML file is written in accordance with HTML 5 standards using English as the HTML language.  <! DOCTYPE html> is specified at the 
-very beginning so that web browsers can read the HTML file. Within the '<head>' tag, several important meta tags are included. These are written as followed; 
+The HTML file is written in accordance with HTML 5 standards using English as the HTML language.  `<! DOCTYPE html>` is specified at the 
+very beginning so that web browsers can read the HTML file. Within the `'<head>'` tag, several important meta tags are included. These are written as followed; 
 
-* '(meta charset="utf-8")'
-* '(meta http-equiv="X-UA-Compatible" content="IE=edge")'
-* '(meta name="viewport" content="width=device-width, initial-scale=1")'
+* `'(meta charset="utf-8")'`
+* `'(meta http-equiv="X-UA-Compatible" content="IE=edge")'`
+* `'(meta name="viewport" content="width=device-width, initial-scale=1")'`
 
-Other meta tags such as <meta name="description" content=" "> and <meta name="author" content=" "> are supplementary. These tags if included, allow web browser 
+Other meta tags such as `<meta name="description" content=" ">` and `<meta name="author" content=" ">` are supplementary. These tags if included, allow web browser 
 search engines to capture all information and display below the webpage link of the HTML file. Social media meta tags are included as well. These are written as followed;
 
-* '(meta property="og:title" content=" ")'
-* '(meta property="og:description" content=" ")'
-* '(meta property="og:type" content=" ")'
-* '(meta property="og:image" content=' ‘)'
+* `'(meta property="og:title" content=" ")'`
+* `'(meta property="og:description" content=" ")'`
+* `'(meta property="og:type" content=" ")'`
+* `'(meta property="og:image" content=' ‘)'`
 
 The rest of the HTML file is followed by a <body> tag that keeps all the HTML contents. 
 
 #### CSS File
-As mentioned in previous sections, a '(script)' tag after the closing '(/body)' is created to contain some JavaScript to run some required features / effects. 
+As mentioned in previous sections, a `'(script)'` tag after the closing '(/body)' is created to contain some JavaScript to run some required features / effects. 
 These scripts are needed only after the webpage is fully loaded.  Thus, by using style early and script last principle prevails as browsers work top-to-bottom.  
 In other words, the principle mentioned here is to prevent unnecessary scripts at the top from delaying or blocking the rest of the page from rendering. 
 
 CSS file is written using CSS3 compliant properties and attributes. There is only one custom CSS file written when building the webpage. It is name custom.css 
-which is stored in css folder. This file is linked with the HTML file under <!-- Custom CSS --> using stylesheet relation. It is important to point out that the 
+which is stored in css folder. This file is linked with the HTML file under `<!-- Custom CSS -->` using stylesheet relation. It is important to point out that the 
 navigation bar CSS is stored in bootstrap_offcanvas.css file. This would ensure all navigation related CSS is only managed under a single file. Besides, there are 
 several other CSS files are linked to the HTML file due to various plugin implementations into the webpage. All of these CSS files are embedded within the '(head) tag.  
 
@@ -316,7 +320,7 @@ The second difficulty is the research needed to get a solution for implementing 
 framework code base to achieve the parallax effect. Fortunately, this implementation had passed all browser testing. The other challenge is trying to apply some animation on the carousel 
 image and the carousel caption. In the end, these features are enabled through using some professional guidance from front end developers that publishes their web building tips and tricks.         
 
-The third difficulty is the parallax effect implementation on to the background images that lies in '(div id=”experience-sec0”) under '(!-- BG Image Container Using Parallax Js--)'. 
+The third difficulty is the parallax effect implementation on to the background images that lies in `'(div id=”experience-sec0”)` under `'(!-- BG Image Container Using Parallax Js--)'`. 
 Due to limited time permitted for this project, this plugin is chosen although it does not work on IOS and Android devices. I had chosen to proceed by using this plugin for two reasons. 
 Firstly, this plugin is reliable for desktop display across all browsers. Secondly, mobile users may not fully appreciate the parallax effect since the screen is small and as long as the 
 images are not subjected to any degradation. 
@@ -350,6 +354,10 @@ To wrap it up, here are a lists of features and effects;
 * different projects under 'Future Project' heading bounce in when scroll to viewport
 * back-to-top button appearing at different sections of the webpage when scroll down, disappear when scroll back to carousel container
 * smooth scrolling for all section links and back-to-top links  
+
+
+### Reference Lists
+
 
 
 ### Live Webpage via Github
