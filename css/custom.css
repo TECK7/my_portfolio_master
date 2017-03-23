@@ -16,7 +16,7 @@
 
 /* carousel fullscreen - vertically centered caption*/
 .carousel-caption {
-    top: 50%;  
+    top: 40%;  
     bottom: auto;
     -webkit-transform: translate(0, -50%);  				/*Always position text at half of the image size*/
     -ms-transform: translate(0, -50%); 
