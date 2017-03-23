@@ -108,7 +108,7 @@ and effects I would need to include into my webpage. Please refer to following f
 
 **Figure 1**: Webpage Features / Effects Markups
 
-#### Style Guide
+#### __Style Guide__
 
 During the wireframe process, I had chosen to limit the number of colours used for the webpage because I only wanted to promote my contents but 
 not my front-end UX/UI skills. In fact, I had tested out a few sets of different colours combination. In the end, I had only used dark blue (#0B1625), 
@@ -167,7 +167,7 @@ specified in different container tags to suit both desktop and mobile wireframes
 on Bootstrap responsive theme. The main reason is due to the addition of non-bootstrap feature/effects implemented into the webpage. All the 
 features/effects added in are to enhance user browsing and navigating experience.
 
-#### Navigation Bar
+#### __Navigation Bar__
 The navigation section is fixed at the top of the page using class navbar-fixed-top. This also means that the navigation bar will always appear at 
 the top of the screen wherever the user scrolls downward. In order to save some screen estate, I had included a headroom.js plugin combined with 
 some jquery script to hide the navigation bar as the user scroll downward to other contents. The navigation bar will be shown as the user scroll upward. 
@@ -177,7 +177,7 @@ The burger toggle button will also slide in a menu bar from the left when is cli
 implemented using Bootstrap-Offcanvas plugin contributed by Phil Hughes on Github. The reason for this implementation is to adopt current mobile menu design trend.
 
 
-#### Carousel Container
+#### __Carousel Container__
 In the carousel container section, Bootstrap carousel.js is used. In fact, left (i.e. previous) and right (i.e. next) controls has been left out. 
 This action was taken because of two main reasons. The first is not to allow these controls to further impede the view of the images in mobile layout. 
 Secondly, the carousel indicators would be sufficient for the user to cycle through the carousel. TouchSwipe j.query plugin hosted by Matt Bryson on Github 
@@ -196,7 +196,7 @@ the HTML body tag `“//Fade Carousel Caption when Schroll down”` for details.
 When the screen resizes, the carousel images also resize. This responsive feature on the image is needed since Bootstrap carousel default is override by other
 CSS properties.  Please refer to script outside the HTML body tag `“//For Responsive Carousel Images when screen resizes”` for details.
 
-#### About Myself Section
+#### __About Myself Section__
 In “About Myself” section, the container `(i.e. #about-wrapper)` have higher index value than the carousel container `(i.e. #carousel-img)`. 
 This setup is to enable parallax effect over the carousel images. The real purpose of including a parallax effect is to create an illusion of depth 
 in a 2D scene and adding to the immersion. This effect would not work if JavaScript is not added. Please refer to script inside the HTML body tag 
@@ -205,19 +205,19 @@ As the user leaves the viewport, the contents would disappear. This is the combi
 The benefit of this is to provide an interesting and interactive experience to engage the user. Please refer to script inside the HTML body tag `“(!--For About Myself Contents --)”`
 for details.
 
-#### Background Image Container
+#### __Background Image Container__
 In this container `(#"experience-sec0)`, parallax effect over the background images has been implemented. The script details can be found script inside the HTML
 body tag under `“(!-- For Parallax --)”`. This effect is added not only create an illusion similar to “About Myself” section but also encourage user to view more 
 of the image when scrolling upward and downward. Unfortunately, this plugin does not work on Android and IOS devices. The image would static without any degradation. 
 A hover effect has been introduced to the “read more” button although hover does not really work well on mobile gadgets. However, the user would still be able to appreciate 
 the effect because the CSS pseudo-class :focus is applied with same attributes. This means that if user clicked on the button the effect could still be seen. 
 
-#### Experience Section
+#### __Experience Section__
 Contents within this container `(i.e. #experience-sec)` would slide up from the bottom as user scroll towards the viewport. As the user leaves the viewport, the contents 
 would disappear. This is the combination of JavaScript and CSS written by Simon Codrington at Sitepoint. Please refer to script inside the HTML body tag `“(!-- For Experience Contents --)”` 
 for details.
 
-#### Portfolio Section
+#### __Portfolio Section__
 In this container `(i.e. # portfolio-sec)` would slide in from the left as user scroll towards the viewport. As the user leaves the viewport, the contents would disappear. 
 This is the combination of JavaScript and CSS written by Simon Codrington at Sitepoint. Please refer to script inside the HTML body tag `“(!-- For Portfolio Contents --)”` for details.
 
@@ -227,7 +227,7 @@ bottom once user clicked on the button 2 and button 3. Again, this is the combin
 outside the HTML body tag `“(!-- Portfolio Section --)”` for details. The reason for this implementation is to allow more user interaction with my contents and help reduce the user’s 
 scrolling footprint.
 
-#### Future Section
+#### __Future Section__
 The contents of this container `(i.e. # future-project-sec)` have two noticeable features. The first one is having a slider container that cycle through all the logos infinitely.
 This feature is implemented by using a minified JavaScript file and some scripts within the HTML body tag together with other CSS. The details can be found on 
 `“(!-- For Skills Logo/Icon Slider --)”`. The advantage of having this slider is that it could save some space within the container and giving these logo a tidy inline look.
@@ -236,17 +236,17 @@ The second feature can be seen on ‘Future Project’ section. The three differ
 viewport. As the user leaves the viewport, the contents would disappear. This is the combination of JavaScript and CSS written by Simon Codrington at Sitepoint. 
 Please refer to script inside the HTML body tag `“(!-- Future Project Section --)”` for details. It is a good feature inclusion when user is anticipating your future projects.
 
-#### Contact Section
+#### __Contact Section__
 This section is straightforward. All responsiveness used Bootstrap CSS theme. `Formspree.io` is used for email and message input fields. This tool offers 1000 
 submissions per email each month and it is sufficient for static webpage. The social links are included using font-awesome icons with some special CSS pseudo 
 class :hover and :focus effect.
 
-#### Footer Section
+#### __Footer Section__
 This section does not any special features apart from giving each specified section links and the back to top arrow a smooth scrolling effect. 
 This is achieved by including a script outside of the HTML body tag which can be found under `“(!-- Script for Individual Section Scroll --)”` for individual section 
 and `“(!--Script for Scroll to Top from footer Section --)”` for the back to top button.
 
-#### Additional Feature
+#### __Additional Feature__
 User may also notice that a floating back to top button would appear on the screen when viewport is 200mm from the top of the screen. This script is 
 implemented on the outside of the HTML body tag under `“(!-- Section of Scroll to Top Visible/Invisible Button --)”`.
 
@@ -256,7 +256,7 @@ implemented on the outside of the HTML body tag under `“(!-- Section of Scroll
 
 ### HTML and CSS Files
 
-#### HTML File
+#### __HTML File__
 
 The HTML file is written in accordance with HTML 5 standards using English as the HTML language.  `<! DOCTYPE html>` is specified at the 
 very beginning so that web browsers can read the HTML file. Within the `'<head>'` tag, several important meta tags are included. These are written as followed; 
@@ -275,7 +275,7 @@ search engines to capture all information and display below the webpage link of 
 
 The rest of the HTML file is followed by a <body> tag that keeps all the HTML contents. 
 
-#### CSS File
+#### __CSS File__
 As mentioned in previous sections, a `'(script)'` tag after the closing '(/body)' is created to contain some JavaScript to run some required features / effects. 
 These scripts are needed only after the webpage is fully loaded.  Thus, by using style early and script last principle prevails as browsers work top-to-bottom.  
 In other words, the principle mentioned here is to prevent unnecessary scripts at the top from delaying or blocking the rest of the page from rendering. 
