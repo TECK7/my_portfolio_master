@@ -244,11 +244,21 @@
 
 @media (max-width: 360px) {
 	.carousel-indicators li {
-	margin-bottom: 90px;						 	
+	margin-bottom: 70px;						 	
 	}
 	
 	.carousel-indicators .active {
-    margin-bottom: 90px;
+    margin-bottom: 70px;
+	}
+}
+
+@media (max-width: 320px) {
+	.carousel-indicators li {
+	margin-bottom: 100px;						 	
+	}
+	
+	.carousel-indicators .active {
+    margin-bottom: 100px;
 	}
 }
 
