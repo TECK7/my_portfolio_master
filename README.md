@@ -108,7 +108,7 @@ and effects I would need to include into my webpage. Please refer to following f
 
 **Figure 1**: Webpage Features / Effects Markups
 
-#### [u]Style Guide[/u]
+#### ===Style Guide===
 
 During the wireframe process, I had chosen to limit the number of colours used for the webpage because I only wanted to promote my contents but 
 not my front-end UX/UI skills. In fact, I had tested out a few sets of different colours combination. In the end, I had only used dark blue (#0B1625), 
