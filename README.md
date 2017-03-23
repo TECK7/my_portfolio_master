@@ -108,7 +108,9 @@ and effects I would need to include into my webpage. Please refer to following f
 
 During the wireframe process, I had chosen to limit the number of colours used for the webpage because I only wanted to promote my contents but 
 not my front-end UX/UI skills. In fact, I had tested out a few sets of different colours combination. In the end, I had only used dark blue (#0B1625), 
-yellow (#ECE833), white (#FFF) and grey (#808080) colours. As for the font, I only used a single Google font-style across the webpage. The font-family 
+yellow (#ECE833), white (#FFF) and grey (#808080) colours. At this stage, I decided to insert yellow (#ECE833) colour on my logo. 
+
+As for the font, I only used a single Google font-style across the webpage. The font-family 
 chosen is Lato and the fallbacks are "Helvetica Neue", Helvetica and Arial. The font size and weight are adjusted accordingly to suit various screen 
 sizes display. Paddings between text and paragraphs are also applied where necessary. Please refer below for the wireframe exercise accomplished.
 
@@ -158,14 +160,14 @@ and three different social icons. A footer section is included which has all the
 As mentioned earlier, Bootstrap 3.3.7 framework is used to build this webpage. Hence, most of the container responsiveness is handled by the 
 in-built CSS classes for various screen sizes (i.e. col-lg-x / col-md-x / col-sm-x / col-xs-x) where x is ranging from 1 to 12. These values are
 specified in different container tags to suit both desktop and mobile wireframes design layout. However, there are few elements that do not rely
-on Bootstrap responsive theme. The main reason is due to the addition of non bootstrap feature/effects implemented into the webpage. All the 
+on Bootstrap responsive theme. The main reason is due to the addition of non-bootstrap feature/effects implemented into the webpage. All the 
 features/effects added in are to enhance user browsing and navigating experience.
 
 #### Navigation Bar
 The navigation section is fixed at the top of the page using class navbar-fixed-top. This also means that the navigation bar will always appear at 
 the top of the screen wherever the user scrolls downward. In order to save some screen estate, I had included a headroom.js plugin combined with 
 some jquery script to hide the navigation bar as the user scroll downward to other contents. The navigation bar will be shown as the user scroll upward. 
-This headroom.js plugin is hosted by WickyNilliams on Github. The jquery script can be referred inside the HTML body tag under “(!-- For Hiding and Showing Navbar onScroll --)”.
+This headroom.js plugin is hosted by WickyNilliams on Github. The jquery script can be referred inside the HTML body tag under ' “(!-- For Hiding and Showing Navbar onScroll --)” '.
 
 The burger toggle button will also slide in a menu bar from the left when is clicked. This menu slide in feature is a non standard Bootstrap feature and is 
 implemented using Bootstrap-Offcanvas plugin contributed by Phil Hughes on Github. The reason for this implementation is to adopt current mobile menu design trend.
@@ -250,7 +252,7 @@ implemented on the outside of the HTML body tag under “(!-- Section of Scroll 
 
 ### HTML and CSS Files
 
-##### HTML File
+#### HTML File
 
 The HTML file is written in accordance with HTML 5 standards using English as the HTML language.  <! DOCTYPE html> is specified at the 
 very beginning so that web browsers can read the HTML file. Within the '<head>' tag, several important meta tags are included. These are written as followed; 
@@ -269,7 +271,7 @@ search engines to capture all information and display below the webpage link of 
 
 The rest of the HTML file is followed by a <body> tag that keeps all the HTML contents. 
 
-##### CSS File
+#### CSS File
 As mentioned in previous sections, a '(script)' tag after the closing '(/body)' is created to contain some JavaScript to run some required features / effects. 
 These scripts are needed only after the webpage is fully loaded.  Thus, by using style early and script last principle prevails as browsers work top-to-bottom.  
 In other words, the principle mentioned here is to prevent unnecessary scripts at the top from delaying or blocking the rest of the page from rendering. 
@@ -288,7 +290,8 @@ There are three main folders in this webpage project. The folders are css, image
 The css folder contains bootstrap css, font-awesome icons and other plugin css. 
 
 The images folder consists of four sub-folders. These folders’ name is backgrounds, icons, logos, pictures and social. These folders are used to stored images that would be 
-appearing on the webpage. The icons folder is used to stored favicons generated for the webpage. These favicons are displayed on different web browser tab. 
+appearing on the webpage. The icons folder is used to stored favicons generated for the webpage. These favicons are coloured with dark blue (#0B1625) so that it is displayed clearly on
+different web browser tab. 
 
 The robot.txt is created at the root directory. The robot is not allowed to access the js folder, images folder, css/icons folder, css/bootstrap_offcanvas.css file and css/custom.css file.
 
