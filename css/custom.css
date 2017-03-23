@@ -2,6 +2,427 @@
 @-ms-viewport{
   width: device-width;
 }
+/*
+  ===============================================
+  Landing Page Settings 
+  ===============================================
+*/
+.full {
+	margin: 0 -15px 0px -15px;
+	background-image: url("../images/backgrounds/landing.jpg"); 
+	background-repeat: no-repeat; 
+	background-position: center center; 
+	background-attachment: fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.landing-body {
+	background: none;
+}
+
+div.btn-container1 {
+	margin-top: 10%;
+	bottom: auto;
+	border: 2px solid tranparent;
+}
+
+a.eng-btn {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	display: block;
+	margin: auto;
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 600;
+	color: white;
+	padding-top: 55px;
+	background-color: #rgba (9, 21, 37, 0.2);
+	border: 2px solid white;
+	-moz-border-radius: 0px; 
+	-webkit-border-radius: 0px; 
+	-ms-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-o-border-radius: 0px;
+	border-radius: 0px;
+	-webkit-transition: background-color 0.5s ease, padding-right 0.5s ease;
+	-moz-transition: background-color 0.5s ease, padding-right 0.5s ease;
+    -o-transition: background-color 0.5s ease, padding-right 0.5s ease;
+	-ms-transition: background-color 0.5s ease, padding-right 0.5s ease;
+	transition: background-color 0.5s ease, padding-right 0.5s ease;
+}
+
+a.eng-btn:hover,
+a.eng-btn:focus  {
+	color: #EDE832;
+	background-color: #091525;
+	border: 2.5px solid #EDE832;
+	padding-right: 40px;
+	-moz-border-radius: 15px; 
+	-webkit-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	border-radius: 15px;
+}
+
+a.eng-btn span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+}
+
+a.eng-btn span:after {
+	font-family: fontAwesome;
+	content: "\f02d";
+	position: absolute;
+	opacity: 0;
+	font-size: 30px;
+	font-weight: 600;
+	color: #EDE832;
+	top: 18px;								/*vertical align icon*/
+	right: 0px;								/*motion start point from declared direction*/
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+}
+
+a.eng-btn:hover span {
+	padding-right: 40px;   					/*move the anchor border rightward*/
+}
+
+a.eng-btn:hover span:after {
+	opacity: 1;
+	right: -30px;							/*specify the direction of movement length move from starting point*/
+}
+
+.h1-container {
+	margin-top: 2%;
+	bottom: auto;
+	border: 2px solid tranparent;
+}
+
+.welcome-heading {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 50px;
+	font-weight: 900;
+	color: #EDE832;
+	text-align: center;
+}
+
+div.btn-container2 {
+	margin-top: 2%;
+	bottom: auto;
+	border: 2px solid tranparent;
+}
+
+a.chn-btn {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	display: block;
+	margin: auto;
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 600;
+	color: white;
+	padding-top: 55px;
+	background-color: #rgba (9, 21, 37, 0.2);
+	border: 2px solid white;
+	-moz-border-radius: 0px; 
+	-webkit-border-radius: 0px; 
+	-ms-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-o-border-radius: 0px;
+	border-radius: 0px;
+	-webkit-transition: background-color 0.5s ease, padding-right 0.5s ease;
+	-moz-transition: background-color 0.5s ease, padding-right 0.5s ease;
+    -o-transition: background-color 0.5s ease, padding-right 0.5s ease;
+	-ms-transition: background-color 0.5s ease, padding-right 0.5s ease;
+	transition: background-color 0.5s ease, padding-right 0.5s ease;
+}
+
+a.chn-btn:hover,
+a.chn-btn:focus  {
+	color: #EDE832;
+	background-color: #091525;
+	border: 2.5px solid #EDE832;
+	padding-right: 40px;
+	-moz-border-radius: 15px; 
+	-webkit-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	border-radius: 15px;
+}
+
+a.chn-btn span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+}
+
+a.chn-btn span:after {
+	font-family: fontAwesome;
+	content: "\f02d";
+	position: absolute;
+	opacity: 0;
+	font-size: 30px;
+	font-weight: 600;
+	color: #EDE832;
+	top: 18px;								/*vertical align icon*/
+	right: 0px;								/*motion start point from declared direction*/
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+}
+
+a.chn-btn:hover span {
+	padding-right: 40px;   					/*move the anchor border rightward*/
+}
+
+a.chn-btn:hover span:after {
+	opacity: 1;
+	right: -30px;							/*specify the direction of movement length move from starting point*/
+}
+
+/*
+  ===================================================
+  Media Query Settings for Landing Page Section
+  ===================================================
+*/
+@media (max-width: 1336px) {
+	div.btn-container1 {
+	margin-top: 18%;
+	}
+}
+
+@media (max-width: 1280px) {
+	div.btn-container1 {
+	margin-top: 20%;
+	}
+}
+
+@media (max-width: 767px) {
+	div.btn-container1 {
+	margin-top: 25%;
+	}
+
+	a.eng-btn {
+	width: 60%;
+	height: 150px;
+	font-size: 40px;
+	padding-top: 45px;
+	}
+
+	a.eng-btn span:after {
+	top: 10px;								/*vertical align icon*/
+	}
+
+	.welcome-heading {
+	font-size: 40px;
+	}
+
+	div.btn-container2 {
+	margin-top: 2%;
+	}
+
+	a.chn-btn {
+	width: 60%;
+	height: 150px;
+	font-size: 40px;
+	padding-top: 45px;
+	}
+
+
+	a.chn-btn span:after {
+	top: 10px;								/*vertical align icon*/
+	}
+}
+
+@media (max-width: 600px) {
+	div.btn-container1 {
+	margin-top: 35%;
+	}
+
+	a.eng-btn {
+	width: 50%;
+	height: 100px;
+	font-size: 30px;
+	padding-top: 30px;
+	}
+
+	a.eng-btn span:after {
+	top: 0px;								/*vertical align icon*/
+	}
+	
+	.h1-container {
+	margin-top: 10%;
+	}
+
+	.welcome-heading {
+	font-size: 30px;
+	}
+	
+	div.btn-container2 {
+	margin-top: 10%;
+	}
+
+	a.chn-btn {
+	width: 50%;
+	height: 100px;
+	font-size: 30px;
+	padding-top: 30px;
+	}
+
+	a.chn-btn span:after {
+	top: 0px;								/*vertical align icon*/
+	}
+}
+
+@media (max-width: 450px) {
+	div.btn-container1 {
+	margin-top: 45%;
+	}
+
+	a.eng-btn {
+	width: 62%;
+	height: 100px;
+	font-size: 25px;
+	padding-top: 28px;
+	}
+
+	a.eng-btn span:after {
+	top: -2px;								/*vertical align icon*/
+	}
+	
+	.h1-container {
+	margin-top: 10%;
+	}
+
+	.welcome-heading {
+	font-size: 25px;
+	}
+	
+	div.btn-container2 {
+	margin-top: 10%;
+	}
+
+	a.chn-btn {
+	width: 62%;
+	height: 100px;
+	font-size: 25px;
+	padding-top: 28px;
+	}
+
+	a.chn-btn span:after {
+	top: -2px;								/*vertical align icon*/
+	}
+}
+
+@media (max-width: 400px) {
+	div.btn-container1 {
+	margin-top: 50%;
+	}
+
+	a.eng-btn {
+	width: 62%;
+	height: 100px;
+	font-size: 20px;
+	padding-top: 32px;
+	}
+
+	a.eng-btn span:after {
+	top: -5px;								/*vertical align icon*/
+	}
+	
+	.h1-container {
+	margin-top: 10%;
+	}
+
+	.welcome-heading {
+	font-size: 20px;
+	}
+	
+	div.btn-container2 {
+	margin-top: 10%;
+	}
+
+	a.chn-btn {
+	width: 62%;
+	height: 100px;
+	font-size: 20px;
+	padding-top: 32px;
+	}
+
+	a.chn-btn span:after {
+	top: -5px;								/*vertical align icon*/
+	}
+}
+
+@media (max-width: 320px) {
+	div.btn-container1 {
+	margin-top: 45%;
+	}
+
+	a.eng-btn {
+	width: 62%;
+	height: 50px;
+	font-size: 15px;
+	padding-top: 15px;
+	}
+
+	a.eng-btn span:after {
+	font-size: 20px;	
+	top: -5px;								/*vertical align icon*/
+	}
+	
+	.h1-container {
+	margin-top: 10%;
+	}
+
+	.welcome-heading {
+	font-size: 15px;
+	}
+	
+	div.btn-container2 {
+	margin-top: 10%;
+	}
+
+	a.chn-btn {
+	width: 62%;
+	height: 50px;
+	font-size: 15px;
+	padding-top: 15px;
+	}
+	
+	a.chn-btn span:after {
+	font-size: 20px;
+	top: -3px;								/*vertical align icon*/
+	}
+}
+
+@media (max-width: 280px) {
+	a.chn-btn:hover span {
+	padding-right: 22px;   					/*move the anchor border rightward*/
+	}
+}
 
 /*
   ===============================================
