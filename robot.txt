@@ -2,5 +2,5 @@ User-agent: *
 Disallow: /js
 Disallow: /images
 Disallow: /css/icons
-Disallow: /css/bootstrap_offcanvas.css
-Disallow: /css/custom.css
+
+Sitemap: https://teck7.github.io/teck.github.io/sitemap.xml
