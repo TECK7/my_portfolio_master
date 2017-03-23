@@ -821,7 +821,7 @@ li.experience-divider {
 */
 /*div to seperate experience section and portfolio section*/
 .addition {
-	border: 1px solid green;
+	border: 1px solid transparent;
 }
 
 /*
