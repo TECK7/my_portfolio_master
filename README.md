@@ -366,3 +366,4 @@ To wrap it up, here are a lists of features and effects;
 
 ### What's Up Next?
 * Make parallax effect on the background image work on IOS and Android system 
+* A bug found on iphone Safari browser, the screen freezes when user clicked on the a section link on the toggled slide-in menu, needs to zoom in/out before being able to scroll again.
