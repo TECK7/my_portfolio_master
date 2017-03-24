@@ -430,7 +430,7 @@ a.chn-btn:hover span:after {
 	}
 	
 	a.chn-btn:hover span {
-	padding-right: 10px;   					/*move the anchor border rightward*/
+	padding-right: 5px;   					/*move the anchor border rightward*/
 	}
 }
 
