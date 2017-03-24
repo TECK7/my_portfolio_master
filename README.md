@@ -221,7 +221,7 @@ would disappear. This is the combination of JavaScript and CSS written by Simon 
 for details.
 
 #### __Portfolio Section__
-In this container `(i.e. # portfolio-sec)` would slide in from the left as user scroll towards the viewport. As the user leaves the viewport, the contents would disappear. 
+In this container `(i.e. # portfolio-sec)` would slide in from the left as user scroll towards the viewport. As the user leaves the viewport, the contents would not disappear to prevent from overloading of Js. 
 This is the combination of JavaScript and CSS written by Simon Codrington at Sitepoint. Please refer to script inside the HTML body tag `“(!-- For Portfolio Contents --)”` for details.
 
 Once the user is in the viewport, user could toggle on so called “button” labelled as 1, 2 and 3 to show different portfolios. It is important to note that the first portfolio 
@@ -236,7 +236,7 @@ This feature is implemented by using a minified JavaScript file and some scripts
 `“(!-- For Skills Logo/Icon Slider --)”`. The advantage of having this slider is that it could save some space within the container and giving these logo a tidy inline look.
 
 The second feature can be seen on ‘Future Project’ section. The three different projects would bounce in from different angles as user scroll towards the 
-viewport. As the user leaves the viewport, the contents would disappear. This is the combination of JavaScript and CSS written by Simon Codrington at Sitepoint. 
+viewport. As the user leaves the viewport, the contents would not disappear to prevent overloading of Js. This is the combination of JavaScript and CSS written by Simon Codrington at Sitepoint. 
 Please refer to script inside the HTML body tag `“(!-- Future Project Section --)”` for details. It is a good feature inclusion when user is anticipating your future projects.
 
 #### __Contact Section__
@@ -353,11 +353,11 @@ To wrap it up, here are a lists of features and effects;
 * contents in "About Myself" sections slide-in into position from left when scroll to viewport and slide-out when scroll out of viewport
 * parallax effect on the background images stored after the "About Myself" section (Effect is static on IOS and Android)
 * contents in "Experience" section slide-up into position from bottom when scroll to viewport and slide-down when scroll out of viewport
-* contents in "Portfolio" section slide-in from left when scroll to viewport and slide-out when scroll out of viewport
+* contents in "Portfolio" section slide-in from left when scroll to viewport (i.e. happens only once)
 * different portfolio in "Portfolio" section can be view by toggling the labelled buttons
 * slider feature for skills/logos, the slider stops when hovered over
 * different projects under 'Future Project' heading bounce in when scroll to viewport
-* back-to-top button appearing at different sections of the webpage when scroll down, disappear when scroll back to carousel container
+* back-to-top button appearing at different sections of the webpage when scroll down (i.e. happens only once)
 * smooth scrolling for all section links and back-to-top links  
 
 ### Live Webpage via Github
