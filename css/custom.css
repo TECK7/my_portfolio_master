@@ -425,12 +425,20 @@ a.chn-btn:hover span:after {
 }
 
 @media (max-width: 260px) {
+	a.eng-btn {
+	width: 70%;
+	}
+	
 	a.eng-btn:hover span {
 	padding-right: 10px;   					/*move the anchor border rightward*/
 	}
 	
+	a.chn-btn {
+	width: 70%;
+	}
+	
 	a.chn-btn:hover span {
-	padding-right: 5px;   					/*move the anchor border rightward*/
+	padding-right: 10px;   					/*move the anchor border rightward*/
 	}
 }
 
