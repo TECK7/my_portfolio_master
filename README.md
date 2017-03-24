@@ -58,8 +58,10 @@
 
 ### Webpage Building Intent
 
-The core intention of building this personal website is to promote myself to prospective employers. 
-The website would contain 5 main sections. These sections are “About Myself”, “Experience”, “Portfolio”, “Future” and “Contact”. 
+The core intention of building this personal website is to promote myself to prospective employers from both Western and Asian businesses. 
+The website would contain 5 main sections. These sections are “About Myself”, “Experience”, “Portfolio”, “Future” and “Contact”. The contents
+are written in both English and Simplified Chinese text. Thus, a simple landing page is included part of the webpage and other two HTML files.
+One is for English and the other is for the Chinese language. 
 
 It is critical to allow interested audience to view my personal webpage on their mobile gadgets. Therefore, the website layout is 
 designed around mobile first philosophy. Moreover, it is important to create a webpage that is functional on browsers such as Safari, 
@@ -259,8 +261,9 @@ implemented on the outside of the HTML body tag under `“(!-- Section of Scroll
 
 #### __HTML File__
 
-The HTML file is written in accordance with HTML 5 standards using English as the HTML language.  `<! DOCTYPE html>` is specified at the 
-very beginning so that web browsers can read the HTML file. Within the `'<head>'` tag, several important meta tags are included. These are written as followed; 
+There are three HTML files. Two of them are written in accordance with HTML 5 standards using English as the HTML language and one is written with Chinese (lang="zh-Hans").  
+`<! DOCTYPE html>` is specified at the very beginning so that web browsers can read the HTML file. Within the `'<head>'` tag, several important meta tags are included. 
+These are written as followed; 
 
 * `'(meta charset="utf-8")'`
 * `'(meta http-equiv="X-UA-Compatible" content="IE=edge")'`
@@ -298,11 +301,12 @@ The images folder consists of four sub-folders. These folders’ name is backgro
 appearing on the webpage. The icons folder is used to stored favicons generated for the webpage. These favicons are coloured with dark blue (#0B1625) so that it is displayed clearly on
 different web browser tab. 
 
-The robot.txt is created at the root directory. The robot is not allowed to access the js folder, images folder, css/icons folder, css/bootstrap_offcanvas.css file and css/custom.css file.
+The robot.txt is created at the root directory. The robot is not allowed to access the images folder.
 
 In general, large webpage with many pages would have a sitemap as a standard. Nevertheless, a sitemap xml file is created to allow the search engines to index a webpage much quicker. 
 Once the final project is uploaded to the repository, this webpage link is then submitted to https://www.xml-sitemaps.com (Last visited: 21/03/2017) to generate the sitemap.xml for my personal webpage. 
-This xml file is stored at the root of the webpage. In other words, it is locate at the same directory level as index.html and robot.txt.
+This xml file is stored at the root of the webpage. In other words, it is locate at the same directory level as index.html and robot.txt. The sitemap xml file would disclose three different HTML file
+location (i.e. index / home_eng / home_chn)
 
 [Webpage Design Documentation Contents](#webpage-design-documentation-contents)
 
@@ -356,16 +360,9 @@ To wrap it up, here are a lists of features and effects;
 * back-to-top button appearing at different sections of the webpage when scroll down, disappear when scroll back to carousel container
 * smooth scrolling for all section links and back-to-top links  
 
-
-### Reference Lists
-
-
-
 ### Live Webpage via Github
 
 **https://teck7.github.io/teck.github.io**
 
 ### What's Up Next?
-
-* Build a landing page that would allow webpage visitor to choose Language version of my web contents
 * Make parallax effect on the background image work on IOS and Android system 
