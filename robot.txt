@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: 
+Disallow: /images
 
 Sitemap: https://teck7.github.io/teck.github.io/sitemap.xml
